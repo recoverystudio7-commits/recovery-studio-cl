@@ -1,0 +1,96 @@
+# INFORME Y CERTIFICADO DE ASISTENCIA KINESIOLÓGICA (EJEMPLO LLENO)
+**Para Reembolso en Isapres, Fonasa (Modalidad Libre Elección) y Seguros Complementarios de Salud**
+
+---
+
+### I. IDENTIFICACIÓN DEL PRESTADOR DE SALUD
+* **Profesional Tratante:** Kgo. Daniel Barrueto
+* **Título Profesional:** Kinesiólogo Universitario
+* **Especialidad & Posgrados:**
+  * Magíster en Neurociencias de la Educación
+  * Diplomado en Inclusión y Diversidad
+  * Evaluador Clínico ADOS-2 (Diagnóstico del Espectro Autista)
+* **Registro Nacional Prestadores Individuales de Salud (SIS):** N° 317873
+* **RUT Profesional:** 17.375.282-2
+* **Giro / Actividad Económica SII:** 869092 — Otras actividades de atención de la salud humana prestadas por profesionales
+* **Comuna / Región:** Gorbea, Región de La Araucanía, Chile
+* **Contacto & Teléfono:** +56 9 6505 8439 / contacto@recoverystudio.cl
+
+---
+
+### II. IDENTIFICACIÓN DEL PACIENTE (DATOS DE EJEMPLO)
+* **Nombre Completo:** Matías Ignacio Silva Valenzuela
+* **RUT Paciente:** 16.482.915-K
+* **Fecha de Nacimiento / Edad:** 14/08/1988 (36 años)
+* **Domicilio:** Calle Los Notros #420, Gorbea, Región de La Araucanía
+* **Previsión de Salud:** Isapre Colmena Golden Cross
+* **Seguro Complementario:** MetLife Seguros de Salud — Póliza Colectiva N° 849201-3
+* **Médico Derivante:** Dr. Roberto Morales Henríquez (Traumatólogo, Reg. SIS N° 124580)
+* **Diagnóstico Médico / CIE-10:** M76.8 Sobrecarga miofascial y tendinopatía insercional aquílea bilateral / M54.5 Lumbago mecánico leve
+* **N° Orden Médica:** ORD-2024-0891 | **Fecha Orden Médica:** 02/10/2024
+
+---
+
+### III. CÓDIGOS ARANCELARIOS Y PRESTACIONES EFECTUADAS
+| Código Fonasa / Isapre | Descripción de la Prestación Kinésica | Sesiones Prescritas | Sesiones Ejecutadas |
+|---|---|:---:|:---:|
+| **06-01-001** | Evaluación Kinesiológica Integral (anamnesis, rango articular, pruebas funcionales/neurosensoriales) | 1 | 1 |
+| **06-01-029** | Kinesiterapia Integral / Reeducación Motriz / Terapia Manual y Ejercicio Terapéutico | 10 | 10 |
+
+---
+
+### IV. REGISTRO CRONOLÓGICO Y CONTROL DE ASISTENCIA DE SESIONES
+*Modalidad: Atención individualizada y personalizada 1 a 1 a domicilio.*
+
+| Sesión N° | Fecha (DD/MM/AAAA) | Horario / Duración | Código Prestación | Detalle Clínico / Tratamiento Realizado | Firma / Conforme Paciente |
+|:---:|:---:|:---:|:---:|---|:---:|
+| 1 | 04/10/2024 | 09:30 - 10:30 (60 min) | 06-01-001 | Anamnesis clínica, screening funcional articular, goniometría de tobillo, evaluación palpatoria miofascial lumbar y diseño de pauta terapéutica inicial. | *Firmado digitalmente* |
+| 2 | 07/10/2024 | 09:30 - 10:30 (60 min) | 06-01-029 | Terapia manual ortopédica, liberación miofascial instrumental de tríceps sural bilateral y estabilización lumbopélvica. | *Firmado digitalmente* |
+| 3 | 09/10/2024 | 09:30 - 10:30 (60 min) | 06-01-029 | Kinesiterapia activa asistida, reeducación neuromuscular y ejercicios de movilidad de cadena posterior. | *Firmado digitalmente* |
+| 4 | 11/10/2024 | 09:30 - 10:30 (60 min) | 06-01-029 | Ejercicio terapéutico de carga isométrica para tendón de Aquiles y fortalecimiento de core profundo. | *Firmado digitalmente* |
+| 5 | 14/10/2024 | 09:30 - 10:30 (60 min) | 06-01-029 | Descarga muscular localizada, elongación miofascial activa y modulación neuroconductual del dolor. | *Firmado digitalmente* |
+| 6 | 16/10/2024 | 09:30 - 10:30 (60 min) | 06-01-029 | Progresión a ejercicios excéntricos de gemelos/sóleo (protocolo Alfredson adaptado) y control propioceptivo unipodal. | *Firmado digitalmente* |
+| 7 | 18/10/2024 | 09:30 - 10:30 (60 min) | 06-01-029 | Readaptación biomecánica del gesto de carrera, amortiguación y estabilidad dinámica en plano sagital y frontal. | *Firmado digitalmente* |
+| 8 | 21/10/2024 | 09:30 - 10:30 (60 min) | 06-01-029 | Re-evaluación funcional intermedia, test de salto funcional sin dolor, descarga miofascial complementaria. | *Firmado digitalmente* |
+| 9 | 23/10/2024 | 09:30 - 10:30 (60 min) | 06-01-029 | Fortalecimiento integrado en cadena cinética cerrada y pliometría de bajo impacto controlada. | *Firmado digitalmente* |
+| 10 | 25/10/2024 | 09:30 - 10:30 (60 min) | 06-01-029 | Reeducación motriz final, transferencia a actividad deportiva habitual y pauta domiciliaria preventiva. | *Firmado digitalmente* |
+| 11 | 28/10/2024 | 09:30 - 10:30 (60 min) | 06-01-029 | Cierre de ciclo kinésico, re-evaluación objetiva de rangos articulares completos y alta kinésica de tratamiento. | *Firmado digitalmente* |
+
+---
+
+### V. EVOLUCIÓN CLÍNICA Y CONCLUSIÓN DEL TRATAMIENTO
+* **Estado al ingreso:** Paciente acude derivado por traumatólogo con cuadro doloroso bilateral de 2 meses de evolución en tendones aquíleos post-entrenamiento (EVA 7/10 a la palpación y apoyo matinal) y molestia lumbosacra mecánica asociada a sobrecarga postural (EVA 4/10). Marcada rigidez y acortamiento de tríceps sural.
+* **Técnicas aplicadas:** Kinesiterapia integral individualizada, terapia manual miofascial ortopédica, protocolo de carga progresiva isométrica/excéntrica, reeducación neuromuscular y estabilización lumbo-pélvica con pauta adaptada de neurociencia del movimiento.
+* **Respuesta al tratamiento:** Excelente evolución clínica. Resolución completa de la sintomatología lumbar (EVA 0/10) y franca mejoría funcional aquílea con remisión del dolor en reposo y carga funcional cotidiana (EVA final 1/10). Rangos de dorsiflexión recuperados con simetría bilateral.
+* **Observaciones y plan de mantención:** Tratamiento de 11 sesiones ejecutado al 100% de cumplimiento y adherencia óptima. Se da de alta kinésica con pauta domiciliaria de ejercicios excéntricos de mantención y reintegro progresivo al running.
+
+---
+
+### VI. EMISIÓN DE BOLETAS DE HONORARIOS ELECTRÓNICAS ASOCIADAS (SII)
+* **Emisor:** Kgo. Daniel Barrueto — RUT: 17.375.282-2
+* **Giro SII:** 869092 (Otras actividades de atención de la salud humana prestadas por profesionales)
+* **N° Boleta SII:** Boleta Electrónica Folio N° 412
+* **Fecha Emisión:** 28/10/2024
+* **Monto Bruto Total:** $340.000 ($40.000 evaluación Cód. 06-01-001 + $300.000 ciclo 10 sesiones Cód. 06-01-029)
+* **Glosa Boleta SII Emitida:**
+  *"Atención profesional kinésica individualizada a domicilio: Evaluación Kinesiológica Integral (Cód. 06-01-001) y 10 sesiones de Kinesiterapia Integral y Reeducación Motriz (Cód. 06-01-029) efectuadas entre el 04/10/2024 y el 28/10/2024. Paciente: Matías Ignacio Silva Valenzuela, RUT: 16.482.915-K. Orden Médica N° ORD-2024-0891 (Dr. Roberto Morales H.). Prestador: Kgo. Daniel Barrueto, RUT: 17.375.282-2, Giro SII: 869092, Reg. SIS N° 317873."*
+
+---
+
+### VII. CERTIFICACIÓN Y FIRMA DEL PROFESIONAL
+Se extiende el presente certificado e informe de asistencia kinésica a solicitud expresa de Don **Matías Ignacio Silva Valenzuela**, para ser presentado ante su Isapre **Colmena Golden Cross** y Compañía de Seguros Complementarios **MetLife**.
+
+<br><br>
+
+_________________________________________________  
+**Kgo. Daniel Barrueto**  
+Kinesiólogo Universitario  
+Magíster en Neurociencias de la Educación  
+Diplomado en Inclusión y Diversidad · Evaluador ADOS-2  
+**RUT: 17.375.282-2**  
+**Giro SII: 869092**  
+**Registro SIS N° 317873**  
+Superintendencia de Salud — Chile  
+Teléfono / WhatsApp: +56 9 6505 8439  
+Gorbea, Región de La Araucanía  
+Fecha de Emisión: 28 de Octubre de 2024

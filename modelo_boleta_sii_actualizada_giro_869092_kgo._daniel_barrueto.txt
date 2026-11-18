@@ -1,0 +1,92 @@
+# MODELO OFICIAL DE BOLETA DE HONORARIOS ELECTRÓNICA (SII)
+### Kgo. Daniel Barrueto — Kinesiología & Neurorehabilitación Integral
+**Documento de referencia para emisión en sii.cl y aprobación sin observaciones en Isapres, Fonasa y Seguros Complementarios.**
+
+---
+
+```
+========================================================================================================
+                                     SERVICIO DE IMPUESTOS INTERNOS
+                                  BOLETA DE HONORARIOS ELECTRÓNICA
+========================================================================================================
+                                                                            R.U.T.: 17.375.282-2
+                                                                            BOLETA N°: [FOLIO SII]
+                                                                            Fecha: [DD / MM / AAAA]
+
+DANIEL BARRUETO
+KINESIÓLOGO UNIVERSITARIO · REGISTRO SIS N° 317873
+GIRO SII: 869092 — Otras actividades de atención de la salud humana prestadas por profesionales
+Magíster en Neurociencias de la Educación · Diplomado en Inclusión y Diversidad · Evaluador ADOS-2
+Domicilio / Comuna: Gorbea, Región de La Araucanía
+Fono / Contacto: +56 9 6505 8439 | contacto@recoverystudio.cl
+--------------------------------------------------------------------------------------------------------
+SEÑOR(A): [NOMBRE COMPLETO DEL PACIENTE O TITULAR DEL SEGURO]
+R.U.T.: [XX.XXX.XXX-X]
+DOMICILIO: [DIRECCIÓN DEL PACIENTE, CIUDAD]
+FECHA EMISIÓN: [DD / MM / AAAA]
+--------------------------------------------------------------------------------------------------------
+POR ATENCIÓN PROFESIONAL:
+
+[OPCIÓN A - EVALUACIÓN INICIAL / $40.000]:
+Atención profesional kinésica individualizada a domicilio: Evaluación Kinesiológica Integral y diseño de
+pauta biomecánica / funcional (Código Fonasa/Isapre: 06-01-001). 
+Paciente: [Nombre Completo], RUT: [XX.XXX.XXX-X]. 
+Derivación / Orden Médica N°: [Folio Orden]. Diagnóstico: [CIE-10 / Diagnóstico médico]. 
+Prestador: Kgo. Daniel Barrueto, RUT: 17.375.282-2, Giro SII: 869092, Reg. SIS N° 317873.
+
+[OPCIÓN B - SESIÓN DE TRATAMIENTO O KINESITERAPIA / $30.000]:
+Atención profesional kinésica individualizada a domicilio: Kinesiterapia integral motora, terapia manual
+miofascial y reeducación funcional (Código Fonasa/Isapre: 06-01-029). Sesión N° [X] de [Total].
+Paciente: [Nombre Completo], RUT: [XX.XXX.XXX-X]. 
+Derivación / Orden Médica N°: [Folio Orden Médica]. Diagnóstico: [CIE-10 / Diagnóstico médico]. 
+Prestador: Kgo. Daniel Barrueto, RUT: 17.375.282-2, Giro SII: 869092, Reg. SIS N° 317873.
+
+[OPCIÓN C - PAQUETE / PLAN DE SESIONES (Ej. Plan Inicio 4 ses. $45.000 / Plan Progreso 8 ses. $80.000)]:
+Atención profesional kinésica individualizada a domicilio: Tratamiento de Kinesiterapia Integral y 
+Reeducación Motriz (Código Fonasa 06-01-029). Ciclo correspondiente a [X] sesiones kinésicas realizadas 
+entre el [Fecha Inicio] y [Fecha Término]. 
+Paciente: [Nombre Completo], RUT: [XX.XXX.XXX-X]. 
+Prestador: Kgo. Daniel Barrueto, RUT: 17.375.282-2, Giro SII: 869092, Reg. SIS N° 317873.
+--------------------------------------------------------------------------------------------------------
+                                                            TOTAL HONORARIOS $:        [ $30.000 / $40.000 ]
+                                                            RETENCIÓN LEGAL (14.5%):  -[  $4.350 /  $5.800 ] *
+                                                            TOTAL LÍQUIDO A PAGO $:    [ $25.650 / $34.200 ]
+--------------------------------------------------------------------------------------------------------
+* Nota sobre retención: En la emisión por sii.cl, si el receptor es persona natural, quien retiene es 
+  el emisor (Kgo. Daniel Barrueto). El monto total bruto sobre el cual reembolsa la Isapre o seguro 
+  es el TOTAL HONORARIOS ($30.000 o $40.000).
+========================================================================================================
+Timbre Electrónico SII — Verifique validez en www.sii.cl
+========================================================================================================
+```
+
+---
+
+### INSTRUCCIONES PASO A PASO PARA EMITIR EN SII.CL:
+
+1. **Ingreso:** Entra con tu ClaveÚnica o Clave Tributaria a **www.sii.cl** → **Servicios online** → **Boletas de honorarios electrónicas**.
+2. **Emisor:** Selecciona *"Emitir boleta de honorarios electrónicas"*.
+3. **Actividad / Giro:** Verifica que esté seleccionado tu código de actividad económica:
+   * **Código 869092**: *"Otras actividades de atención de la salud humana prestadas por profesionales (incluye kinesiología, terapia ocupacional, fonoaudiología, etc.)"*.
+4. **Tipo de retención:** Selecciona *"El emisor se hará cargo de la retención del impuesto"* (cuando es para un paciente particular/persona natural).
+5. **Datos del receptor:** 
+   * RUT del paciente (o del titular del seguro de salud).
+   * Nombre y apellidos completos.
+   * Domicilio del paciente.
+6. **Glosa (Descripción del Servicio):** 
+   * Copia y pega una de las glosas recomendadas arriba (Opción A, B o C).
+   * **Imprescindible incluir siempre:**
+     - Nombre y RUT del paciente.
+     - Código arancelario Fonasa: `06-01-001` (Evaluación) o `06-01-029` (Kinesiterapia).
+     - Tu Registro SIS: `N° 317873`.
+     - Giro SII: `869092`.
+     - N° de Orden Médica si el paciente ya te la facilitó.
+7. **Monto:** Ingresa el valor pactado en el campo bruto ($40.000 evaluación, $30.000 sesión, o valor del plan). El sistema calculará automáticamente la retención vigente y el líquido.
+
+---
+
+### RECOMENDACIÓN PARA EL PACIENTE AL SOLICITAR SU REEMBOLSO:
+Indícale al paciente que en la app o portal de su Isapre / Seguro Complementario debe subir:
+1. **La Orden Médica** (con diagnóstico y prescripción de kinesiología).
+2. **Esta Boleta de Honorarios Electrónica** (PDF descargado del SII con código de giro 869092).
+3. **El Informe y Certificado de Asistencia Kinésica** (con tus credenciales SIS N° 317873 y fechas de asistencia).

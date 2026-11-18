@@ -1,0 +1,69 @@
+# GUÍA PASO A PASO: CÓMO OBTENER EL ENLACE CORTO DIRECTO DE GOOGLE REVIEWS
+**Kgo. Daniel Barrueto — Kinesiólogo · Magíster en Neurociencias de la Educación**
+**Gorbea y alrededores · WhatsApp: +56 9 6505 8439**
+
+---
+
+### ¿POR QUÉ ES CLAVE USAR EL ENLACE DIRECTO?
+Si le envías al paciente solo tu ficha de Google Maps, tendrá que buscar la pestaña de opiniones, hacer scroll y pinchar "Escribir una reseña" (muchos se pierden o lo abandonan). 
+
+El **enlace corto oficial de Google Reviews** abre automáticamente una ventana emergente en el teléfono del paciente con las **5 estrellas seleccionables y la caja de texto lista para escribir** en menos de 5 segundos.
+
+---
+
+### MÉTODO 1: DESDE EL CELULAR (MÁS RÁPIDO Y CÓMODO)
+
+1. **Abre la app de Google Maps** o la app de **Google** en tu teléfono.
+2. Asegúrate de tener iniciada sesión con la **cuenta de Gmail administradora** de tu perfil de negocio o ficha profesional ("Kgo. Daniel Barrueto" o "Recovery Studio").
+3. En la barra de búsqueda escribe el nombre de tu ficha o toca tu foto de perfil arriba a la derecha y selecciona **"Tu Perfil de Empresa"**.
+4. En el menú de botones rápidos que aparece bajo el nombre de tu ficha, desliza hacia el lado y busca el botón:
+   👉 **"Solicitar opiniones"** (o **"Pedir reseñas"** / icono de estrella con corazón).
+5. Se abrirá una ventana con tu enlace directo oficial generado por Google (formato: `https://g.page/r/.../review` o `https://maps.app.goo.gl/...`).
+6. Presiona **"Copiar enlace"**.
+7. ¡Listo! Guarda ese enlace en tus notas o mensajes guardados de WhatsApp para pegarlo en las plantillas.
+
+---
+
+### MÉTODO 2: DESDE EL COMPUTADOR (GOOGLE SEARCH O PERFIL DE EMPRESA)
+
+1. Abre tu navegador (Google Chrome) con la cuenta de Gmail con la que administras tu ficha.
+2. En el buscador de Google, escribe:
+   `mi negocio` o busca el nombre exacto de tu perfil (ej. `Recovery Studio Gorbea` o `Daniel Barrueto Kinesiólogo`).
+3. Te aparecerá el panel de administración con el título **"Tu empresa en Google"**.
+4. Haz clic en el ítem o tarjeta que dice:
+   ⭐ **"Solicitar opiniones"** (o **"Pide más reseñas"**).
+5. Aparecerá una ventana emergente con el link oficial acortado:
+   - Ejemplo: `https://g.page/r/CXXXXX/review`
+6. Haz clic en el icono de **Copiar** al lado del enlace.
+
+---
+
+### MÉTODO 3: ALTERNATIVA MEDIANTE PLACE ID DE GOOGLE (SI AÚN NO VES EL BOTÓN RÁPIDO)
+
+Si por alguna razón tu ficha no muestra el botón directo de reseñas en el panel:
+1. Ingresa a la herramienta oficial de Google: [Place ID Finder de Google Developers](https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder)
+2. En el mapa, busca tu negocio: `Recovery Studio` o `Daniel Barrueto Gorbea`.
+3. Haz clic en tu ubicación y copia el código alfanumérico que dice **Place ID** (ejemplo: `ChIJN1t_tDeuEmsRUsoyG83frY4`).
+4. Añade tu Place ID al final de esta dirección:
+   `https://search.google.com/local/writereview?placeid=[TU_PLACE_ID]`
+5. Al abrir ese link, la persona va directo a redactar la reseña con 5 estrellas.
+
+---
+
+### CÓMO INTEGRARLO EN TUS PLANTILLAS DE WHATSAPP
+
+Una vez que tengas tu link (por ejemplo: `https://g.page/r/CR17xyz123/review`), solo debes reemplazar la etiqueta `[ENLACE_A_TU_PERFIL_DE_GOOGLE]` en las plantillas que ya tienes en tu panel.
+
+#### Ejemplo listo para enviar:
+> ¡Hola, Juan Carlos! Qué gusto saber que sentiste alivio tras la sesión de ayer.
+> 
+> Como profesional independiente aquí en Gorbea, la recomendación de mis pacientes es vital para seguir ayudando a más vecinos a recuperarse de sus dolencias a domicilio.
+> 
+> ¿Me apoyarías dejando tu calificación en este enlace directo? Solo toma 30 segundos:
+> 👉 **https://g.page/r/CR17xyz123/review**
+> 
+> ¡Muchas gracias por tu confianza!
+> **Kgo. Daniel Barrueto** · WhatsApp: +56 9 6505 8439
+
+---
+*Nota de seguridad: Tu página web y pantallas móviles continúan 100% intactas y operativas.*

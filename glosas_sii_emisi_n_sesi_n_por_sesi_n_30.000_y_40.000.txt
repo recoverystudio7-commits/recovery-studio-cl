@@ -1,0 +1,46 @@
+# GUÍA Y GLOSAS SII PARA EMISIÓN SESIÓN POR SESIÓN ($30.000 / $40.000)
+**Kgo. Daniel Barrueto — RUT: 17.375.282-2 — Giro SII: 869092 — SIS N° 317873**
+
+---
+
+### 1. GLOSA PARA SESIÓN INDIVIDUAL DE KINESITERAPIA ($30.000)
+*Copiar y pegar directamente en el campo "Descripción o Glosa" al emitir en sii.cl:*
+
+```text
+Atención profesional kinésica individualizada a domicilio: 1 sesión de Kinesiterapia Integral y Reeducación Motriz (Cód. Fonasa 06-01-029) efectuada el [DD/MM/AAAA]. Paciente: [Nombre Paciente], RUT: [RUT Paciente]. Orden Médica N° [Folio Orden] (Dr(a). [Nombre Médico], Reg. SIS N° [N° SIS Médico]). Diagnóstico: [Diagnóstico o Código CIE-10]. Prestador: Kgo. Daniel Barrueto, RUT: 17.375.282-2, Giro SII: 869092, Reg. SIS N° 317873.
+```
+
+#### Ejemplo Lleno — Sesión Individual ($30.000):
+```text
+Atención profesional kinésica individualizada a domicilio: 1 sesión de Kinesiterapia Integral y Reeducación Motriz (Cód. Fonasa 06-01-029) efectuada el 14/10/2024. Paciente: Matías Ignacio Silva Valenzuela, RUT: 16.482.915-K. Orden Médica N° ORD-2024-0891 (Dr. Roberto Morales Henríquez, Reg. SIS N° 124580). Diagnóstico: M76.8 Sobrecarga miofascial y tendinopatía aquílea bilateral. Prestador: Kgo. Daniel Barrueto, RUT: 17.375.282-2, Giro SII: 869092, Reg. SIS N° 317873.
+```
+
+* **Monto Bruto:** `$30.000`
+* **Retención 14.5%:** `-$4.350`
+* **Líquido:** `$25.650`
+
+---
+
+### 2. GLOSA PARA EVALUACIÓN INICIAL CON PAUTA ($40.000)
+*Copiar y pegar cuando emitas la primera sesión de evaluación integral:*
+
+```text
+Atención profesional kinésica individualizada a domicilio: Evaluación Kinesiológica Integral (Cód. Fonasa 06-01-001) y entrega de pauta terapéutica inicial efectuada el [DD/MM/AAAA]. Paciente: [Nombre Paciente], RUT: [RUT Paciente]. Orden Médica N° [Folio Orden] (Dr(a). [Nombre Médico], Reg. SIS N° [N° SIS Médico]). Prestador: Kgo. Daniel Barrueto, RUT: 17.375.282-2, Giro SII: 869092, Reg. SIS N° 317873.
+```
+
+#### Ejemplo Lleno — Evaluación Inicial ($40.000):
+```text
+Atención profesional kinésica individualizada a domicilio: Evaluación Kinesiológica Integral (Cód. Fonasa 06-01-001) y entrega de pauta terapéutica inicial efectuada el 04/10/2024. Paciente: Matías Ignacio Silva Valenzuela, RUT: 16.482.915-K. Orden Médica N° ORD-2024-0891 (Dr. Roberto Morales Henríquez, Reg. SIS N° 124580). Prestador: Kgo. Daniel Barrueto, RUT: 17.375.282-2, Giro SII: 869092, Reg. SIS N° 317873.
+```
+
+* **Monto Bruto:** `$40.000`
+* **Retención 14.5%:** `-$5.800`
+* **Líquido:** `$34.200`
+
+---
+
+### 3. DATOS DE CONFIGURACIÓN TRIBUTARIA EN SII.CL
+* **Receptor:** RUT del paciente
+* **Giro seleccionado del emisor:** `869092 — Otras actividades de atención de la salud humana prestadas por profesionales`
+* **Opción de Retención:** *"El emisor se hará cargo de la retención del impuesto"* (habitual para pacientes particulares)
+* **Validez Isapres / Fonasa / Seguros:** Al especificar fecha exacta, código Fonasa y Orden Médica, cada boleta se liquida de manera autónoma sin necesidad de esperar el término del ciclo.

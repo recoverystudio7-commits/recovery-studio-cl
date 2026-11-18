@@ -1,0 +1,343 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#edfef0;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary": "#ffffff", "tertiary-container": "#31291e", "surface-container": "#e1f2e5", "secondary-fixed": "#ffdbcd", "secondary-fixed-dim": "#ffb597", "error": "#ba1a1a", "tertiary": "#1c150b", "surface-container-highest": "#d6e7da", "inverse-primary": "#b8cbbe", "inverse-surface": "#25342b", "error-container": "#ffdad6", "surface-container-high": "#dcecdf", "on-primary": "#ffffff", "on-tertiary-fixed": "#221a10", "tertiary-fixed-dim": "#d3c4b4", "primary-fixed-dim": "#b8cbbe", "on-surface": "#101e17", "on-surface-variant": "#434844", "primary-fixed": "#d4e7d9", "outline": "#737874", "surface-container-lowest": "#ffffff", "on-secondary-fixed": "#360f00", "on-tertiary-fixed-variant": "#4f4539", "surface-variant": "#d6e7da", "background": "#edfef0", "on-background": "#101e17", "inverse-on-surface": "#e4f5e8", "on-tertiary-container": "#9c9081", "on-secondary-container": "#783615", "surface-container-low": "#e7f8eb", "on-primary-fixed": "#0f1f16", "surface-tint": "#516258", "on-error-container": "#93000a", "secondary": "#934a28", "on-error": "#ffffff", "secondary-container": "#ffa179", "primary-container": "#1e2e25", "surface": "#edfef0", "on-secondary-fixed-variant": "#753313", "primary": "#091911", "surface-bright": "#edfef0", "on-primary-container": "#84968a", "outline-variant": "#c3c8c2", "tertiary-fixed": "#efe0cf", "surface-dim": "#cdded1", "on-tertiary": "#ffffff", "on-primary-fixed-variant": "#3a4b40" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "gutter": "1.5rem", "space-md": "1rem", "space-xs": "0.25rem", "margin": "3rem", "gutter-sm": "1rem", "space-xl": "2.5rem", "space-sm": "0.5rem", "margin-mobile": "1.25rem" }, "fontFamily": { "label-sm": ["Plus Jakarta Sans"], "display-mobile": ["Newsreader"], "body-lg": ["Plus Jakarta Sans"], "display": ["Newsreader"], "headline-md": ["Newsreader"], "body-sm": ["Plus Jakarta Sans"], "headline-lg": ["Newsreader"], "headline-lg-mobile": ["Newsreader"], "caption-caps": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"] }, "fontSize": { "label-sm": ["0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.04em", "fontWeight": "600" }], "display-mobile": ["2.5rem", { "lineHeight": "2.75rem", "letterSpacing": "-0.015em", "fontWeight": "400" }], "body-lg": ["1.125rem", { "lineHeight": "1.75rem", "letterSpacing": "0em", "fontWeight": "400" }], "display": ["3.5rem", { "lineHeight": "3.75rem", "letterSpacing": "-0.02em", "fontWeight": "400" }], "headline-md": ["1.5rem", { "lineHeight": "1.875rem", "letterSpacing": "-0.005em", "fontWeight": "500" }], "body-sm": ["0.8125rem", { "lineHeight": "1.25rem", "letterSpacing": "0.01em", "fontWeight": "400" }], "headline-lg": ["2.25rem", { "lineHeight": "2.625rem", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-lg-mobile": ["1.75rem", { "lineHeight": "2.125rem", "letterSpacing": "-0.01em", "fontWeight": "400" }], "caption-caps": ["0.6875rem", { "lineHeight": "0.875rem", "letterSpacing": "0.14em", "fontWeight": "700" }], "headline-sm": ["1.125rem", { "lineHeight": "1.5rem", "letterSpacing": "0em", "fontWeight": "600" }], "body-md": ["0.9375rem", { "lineHeight": "1.5rem", "letterSpacing": "0em", "fontWeight": "400" }], "label-md": ["0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.01em", "fontWeight": "600" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md text-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(20,34,26,0.04)]"><div class="h-16 px-margin-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs"><button aria-label="Menú" class="w-11 h-11 flex items-center justify-center rounded-lg text-primary hover:bg-surface-container active:scale-95 transition-all" type="button"><span class="material-symbols-outlined text-[24px]">menu</span></button><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-tight tracking-tight">Recovery Studio</span><span class="font-caption-caps text-caption-caps text-on-surface-variant uppercase tracking-widest text-[9px]">Gorbea · Araucanía</span></div></div><div class="flex items-center gap-space-xs"><a aria-label="Contactar por WhatsApp" class="h-11 px-space-sm bg-secondary text-on-secondary rounded-lg flex items-center gap-1 font-label-sm text-label-sm shadow-[0_2px_8px_rgba(147,74,40,0.18)] active:scale-95 transition-all" href="https://wa.me/56900000000" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">chat</span><span class="hidden xs:inline">WhatsApp</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0 ml-1"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full pb-36">
+<!-- Stepper & Editorial Header -->
+<section class="px-margin-mobile pt-space-md pb-space-sm flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-caption-caps text-caption-caps">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+        PASO 2 DE 3 · CONFIGURACIÓN
+      </span>
+<span class="text-on-surface-variant font-label-sm text-label-sm ml-auto opacity-75">Gorbea · Box 01</span>
+</div>
+<div class="flex flex-col mt-1">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight leading-tight">
+        Reserva tu Sesión
+      </h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mt-0.5">
+        Kinesiología deportiva y recuperación física en el santuario atlético de la Araucanía.
+      </p>
+</div>
+<!-- Micro Stepper Indicator -->
+<div class="grid grid-cols-3 gap-1.5 mt-2">
+<div class="h-1 rounded-full bg-primary"></div>
+<div class="h-1 rounded-full bg-secondary"></div>
+<div class="h-1 rounded-full bg-surface-container-highest"></div>
+</div>
+</section>
+<!-- Step Section 1: Selector de Protocolo / Servicio -->
+<section class="mt-space-md">
+<div class="px-margin-mobile flex items-center justify-between mb-space-xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary">healing</span>
+<span class="font-headline-sm text-headline-sm text-primary">1. Selecciona Terapia</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary tracking-normal">5 protocolos</span>
+</div>
+<!-- Horizontal Service Cards Carousel -->
+<div class="flex gap-3 overflow-x-auto px-margin-mobile pb-3 pt-1 no-scrollbar scroll-smooth" id="services-group"><button class="service-pill text-left shrink-0 w-64 p-3.5 rounded-xl bg-surface-container-lowest shadow-[0_2px_12px_-2px_rgba(20,34,26,0.06)] active:scale-[0.98] transition-all relative flex flex-col justify-between group" data-duration="60 min" data-price="$30.000" data-selected="true" data-service="Recuperación muscular" type="button">
+<div class="absolute top-3 right-3 w-5 h-5 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+<div>
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center mb-2.5 text-secondary">
+<span class="material-symbols-outlined text-[20px]">fitness_center</span>
+</div>
+<span class="font-label-md text-label-md text-primary block leading-snug pr-6">Recuperación muscular</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-1 line-clamp-2">Masoterapia deportiva y movilidad asistida para soltar la tensión, bajar el dolor y volver a entrenar mejor.</span>
+</div>
+<div class="mt-3 pt-2.5 flex items-center justify-between">
+<span class="font-caption-caps text-caption-caps text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">60 MIN</span>
+<span class="font-headline-sm text-headline-sm text-primary">$30.000</span>
+</div>
+</button>
+<button class="service-pill text-left shrink-0 w-64 p-3.5 rounded-xl bg-surface-container-low shadow-[0_2px_12px_-2px_rgba(20,34,26,0.04)] active:scale-[0.98] transition-all relative flex flex-col justify-between opacity-90 hover:opacity-100" data-duration="75 min" data-price="$40.000" data-selected="false" data-service="Evaluación inicial + plan personalizado" type="button">
+<div class="check-icon hidden absolute top-3 right-3 w-5 h-5 rounded-full bg-primary items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+<div>
+<div class="w-8 h-8 rounded-lg bg-secondary-fixed flex items-center justify-center mb-2.5 text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[20px]">clinical_notes</span>
+</div>
+<span class="font-label-md text-label-md text-primary block leading-snug pr-6">Evaluación inicial + plan</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-1 line-clamp-2">Evaluamos movilidad, fuerza y pauta a tu medida.</span>
+</div>
+<div class="mt-3 pt-2.5 flex items-center justify-between">
+<span class="font-caption-caps text-caption-caps text-secondary bg-secondary-fixed px-2 py-0.5 rounded font-bold">PUNTO DE PARTIDA</span>
+<span class="font-headline-sm text-headline-sm text-primary">$40.000</span>
+</div>
+</button>
+<button class="service-pill text-left shrink-0 w-64 p-3.5 rounded-xl bg-surface-container-low shadow-[0_2px_12px_-2px_rgba(20,34,26,0.04)] active:scale-[0.98] transition-all relative flex flex-col justify-between opacity-90 hover:opacity-100" data-duration="60 min" data-price="$30.000" data-selected="false" data-service="Entrenamiento personal" type="button">
+<div class="check-icon hidden absolute top-3 right-3 w-5 h-5 rounded-full bg-primary items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+<div>
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center mb-2.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">exercise</span>
+</div>
+<span class="font-label-md text-label-md text-primary block leading-snug pr-6">Entrenamiento personal</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-1 line-clamp-2">Entrenamiento 1:1 en sala con corrección técnica.</span>
+</div>
+<div class="mt-3 pt-2.5 flex items-center justify-between">
+<span class="font-caption-caps text-caption-caps text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">60 MIN</span>
+<span class="font-headline-sm text-headline-sm text-primary">$30.000</span>
+</div>
+</button>
+<button class="service-pill text-left shrink-0 w-64 p-3.5 rounded-xl bg-surface-container-low shadow-[0_2px_12px_-2px_rgba(20,34,26,0.04)] active:scale-[0.98] transition-all relative flex flex-col justify-between opacity-90 hover:opacity-100" data-duration="30 min" data-price="$18.000" data-selected="false" data-service="Asesoría a distancia" type="button">
+<div class="check-icon hidden absolute top-3 right-3 w-5 h-5 rounded-full bg-primary items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+<div>
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center mb-2.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">video_camera_front</span>
+</div>
+<span class="font-label-md text-label-md text-primary block leading-snug pr-6">Asesoría a distancia</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-1 line-clamp-2">Videollamada para resolver dudas y cargas.</span>
+</div>
+<div class="mt-3 pt-2.5 flex items-center justify-between">
+<span class="font-caption-caps text-caption-caps text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">30 MIN</span>
+<span class="font-headline-sm text-headline-sm text-primary">$18.000</span>
+</div>
+</button>
+<button class="service-pill text-left shrink-0 w-64 p-3.5 rounded-xl bg-surface-container-low shadow-[0_2px_12px_-2px_rgba(20,34,26,0.04)] active:scale-[0.98] transition-all relative flex flex-col justify-between opacity-90 hover:opacity-100" data-duration="30 min" data-price="$10.000" data-selected="false" data-service="Sauna húmedo terapéutico" type="button">
+<div class="check-icon hidden absolute top-3 right-3 w-5 h-5 rounded-full bg-primary items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+<div>
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center mb-2.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">spa</span>
+</div>
+<span class="font-label-md text-label-md text-primary block leading-snug pr-6">Sauna húmedo terapéutico</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-1 line-clamp-2">Calor húmedo y protocolo de hidratación para descansar.</span>
+</div>
+<div class="mt-3 pt-2.5 flex items-center justify-between">
+<span class="font-caption-caps text-caption-caps text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">30 MIN</span>
+<span class="font-headline-sm text-headline-sm text-primary">$10.000</span>
+</div>
+</button></div>
+</section>
+<!-- Step Section 2: Especialista / Kinesiólogo -->
+<section class="mt-space-md px-margin-mobile"><div class="flex items-center justify-between mb-space-xs"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-secondary">home_pin</span><span class="font-headline-sm text-headline-sm text-primary">3. Modalidad &amp; Ubicación</span></div><span class="font-caption-caps text-caption-caps text-secondary font-bold">A DOMICILIO</span></div><div class="rounded-xl bg-surface-container-lowest p-3.5 shadow-[0_2px_12px_-2px_rgba(20,34,26,0.06)] flex flex-col gap-3"><div class="flex items-start gap-3"><div class="w-10 h-10 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary shrink-0 mt-0.5"><span class="material-symbols-outlined text-[22px]">local_shipping</span></div><div class="flex flex-col flex-1 min-w-0"><div class="flex items-center justify-between"><span class="font-label-md text-label-md text-primary font-bold">Atención Kinésica a Domicilio</span><span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-caption-caps text-[10px] font-bold">INCLUIDO</span></div><p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-snug">Gorbea y alrededores (Equipamiento y camilla portátil a tu casa) o referencia en Calle Los Notros, Pasaje Uno.</p></div></div><div class="flex flex-col gap-1.5 pt-2"><label class="font-label-sm text-label-sm text-primary font-semibold flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px] text-secondary">location_on</span>Dirección / Sector de atención a domicilio</label><input type="text" placeholder="Ej: Los Notros, Pasaje Uno / Calle Cochrane #..." value="Calle Los Notros, Pasaje Uno, Gorbea" class="w-full px-3 py-2 rounded-lg bg-surface-container-low text-primary font-body-sm border border-outline-variant focus:outline-none focus:border-secondary"></div><div class="p-3 rounded-lg bg-surface-container flex items-start gap-2.5"><span class="material-symbols-outlined text-[18px] text-secondary shrink-0 mt-0.5">receipt_long</span><p class="font-body-sm text-[12px] text-on-surface-variant leading-snug"><strong class="text-primary font-semibold">Reembolso de salud garantizado:</strong> Boleta electrónica con Giro SII 869092 emitida al instante para reembolso en Fonasa, Isapres o seguro complementario.</p></div></div></section>
+<!-- Step Section 3: Calendario & Días -->
+<section class="mt-space-md px-margin-mobile"><div class="p-3.5 rounded-xl bg-surface-container-low flex items-start gap-3 shadow-[0_1px_6px_rgba(20,34,26,0.03)]"><div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-primary shrink-0 mt-0.5"><span class="material-symbols-outlined text-[20px]">verified</span></div><div class="flex flex-col flex-1 min-w-0"><div class="flex items-center justify-between"><span class="font-label-sm text-label-sm text-primary font-bold">Atención Kinesiológica Personalizada</span><span class="text-[11px] text-secondary font-semibold">Gorbea · Domicilio</span></div><p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Traslado de camilla ergonómica, instrumental de descarga miofascial y pautas kinésicas en la comodidad de tu hogar.</p></div></div></section>
+<!-- Location & Facility Assurance Card -->
+<section class="mt-space-md px-margin-mobile">
+<div class="p-3.5 rounded-xl bg-surface-container-low flex items-start gap-3 shadow-[0_1px_6px_rgba(20,34,26,0.03)]">
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">pin_drop</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold">Estudio Gorbea Central</span>
+<span class="text-[11px] text-secondary font-semibold">Estacionamiento incl.</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+          Calle Cochrane 450, Gorbea. Acceso con vestuarios nórdicos climatizados e hidratación isotónica artesanal.
+        </p>
+</div>
+</div>
+</section>
+<!-- Fixed Sticky Bottom Reservation Summary Bar -->
+<aside class="fixed bottom-16 left-0 w-full z-40 bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_-4px_24px_rgba(20,34,26,0.10)] px-margin-mobile py-3 flex flex-col gap-2">
+<!-- Summary Details Row -->
+<div class="flex items-center justify-between">
+<div class="flex flex-col min-w-0 pr-2">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary shrink-0"></span>
+<span class="font-label-sm text-label-sm text-primary truncate" id="summary-meta">A Domicilio · Gorbea &amp; Alrededores · Kgo. Daniel B.</span>
+</div>
+<span class="font-body-sm text-[12px] text-on-surface-variant truncate" id="summary-service">Recuperación Muscular &amp; Descarga (60 min)</span>
+</div>
+<div class="flex flex-col items-end shrink-0">
+<span class="font-caption-caps text-[10px] text-on-surface-variant uppercase">Total Sesión</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold" id="summary-price">$30.000</span>
+</div>
+</div>
+<!-- CTA & Trust Guarantee -->
+<div class="flex flex-col gap-1.5">
+<button class="w-full h-12 bg-primary text-on-primary rounded-lg flex items-center justify-center gap-2 font-label-md text-label-md shadow-md active:scale-[0.98] transition-all" id="btn-booking-continue" type="button"><span>Coordinar Sesión a Domicilio por WhatsApp</span><span class="material-symbols-outlined text-[18px]">chat</span></button>
+<div class="flex items-center justify-center gap-1.5 text-on-surface-variant"><span class="material-symbols-outlined text-[14px] text-secondary">receipt_long</span><span class="font-body-sm text-[11px] text-center">Boleta electrónica Giro SII 869092 para Fonasa / Isapres · Sin costo reagendamiento</span></div>
+</div>
+</aside>
+<!-- Client-Side Micro-Interactivity Script -->
+<script>
+    (function initBookingEngine() {
+      // Dynamic State
+      const state = {
+        service: "Kinesiología & Descarga Miofascial",
+        duration: "60 min",
+        price: "$28.000",
+        therapist: "Kgo. Daniel Barrueto",
+        therapistShort: "Daniel B.",
+        date: "Mié 19 Nov",
+        time: "10:30 hrs"
+      };
+
+      const summaryMeta = document.getElementById("summary-meta");
+      const summaryService = document.getElementById("summary-service");
+      const summaryPrice = document.getElementById("summary-price");
+      const availabilityLabel = document.getElementById("availability-label");
+      const btnContinue = document.getElementById("btn-booking-continue");
+
+      function updateUI() {
+        if (summaryMeta) {
+          summaryMeta.textContent = `${state.date}, ${state.time} · ${state.therapistShort}`;
+        }
+        if (summaryService) {
+          summaryService.textContent = `${state.service} (${state.duration})`;
+        }
+        if (summaryPrice) {
+          summaryPrice.textContent = state.price;
+        }
+      }
+
+      // 1. Service Selection Interaction
+      const serviceButtons = document.querySelectorAll(".service-pill");
+      serviceButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          serviceButtons.forEach((b) => {
+            b.classList.remove("bg-surface-container-lowest", "shadow-[0_2px_12px_-2px_rgba(20,34,26,0.06)]");
+            b.classList.add("bg-surface-container-low", "opacity-90");
+            const check = b.querySelector(".check-icon, .w-5.h-5");
+            if (check) check.classList.add("hidden");
+          });
+
+          btn.classList.remove("bg-surface-container-low", "opacity-90");
+          btn.classList.add("bg-surface-container-lowest", "shadow-[0_2px_12px_-2px_rgba(20,34,26,0.06)]");
+          const activeCheck = btn.querySelector(".check-icon, .w-5.h-5");
+          if (activeCheck) activeCheck.classList.remove("hidden");
+
+          state.service = btn.getAttribute("data-service") || state.service;
+          state.price = btn.getAttribute("data-price") || state.price;
+          state.duration = btn.getAttribute("data-duration") || state.duration;
+          updateUI();
+        });
+      });
+
+      // 2. Therapist Selection Interaction
+      const therapistCards = document.querySelectorAll(".therapist-card");
+      therapistCards.forEach((card) => {
+        card.addEventListener("click", () => {
+          therapistCards.forEach((c) => {
+            c.classList.remove("bg-surface-container-lowest", "shadow-[0_2px_10px_-2px_rgba(20,34,26,0.05)]");
+            c.classList.add("bg-surface-container-low", "opacity-85");
+            const radio = c.querySelector(".therapist-radio");
+            if (radio) {
+              radio.classList.remove("bg-primary", "text-on-primary");
+              radio.classList.add("bg-surface-container", "text-transparent");
+            }
+          });
+
+          card.classList.remove("bg-surface-container-low", "opacity-85");
+          card.classList.add("bg-surface-container-lowest", "shadow-[0_2px_10px_-2px_rgba(20,34,26,0.05)]");
+          const currentRadio = card.querySelector(".therapist-radio");
+          if (currentRadio) {
+            currentRadio.classList.remove("bg-surface-container", "text-transparent");
+            currentRadio.classList.add("bg-primary", "text-on-primary");
+          }
+
+          const rawName = card.getAttribute("data-therapist") || "Daniel B.";
+          state.therapist = rawName;
+          if (rawName.includes("Daniel")) state.therapistShort = "Daniel B.";
+          else if (rawName.includes("Camila")) state.therapistShort = "Camila F.";
+          else state.therapistShort = "Turno Libre";
+
+          updateUI();
+        });
+      });
+
+      // 3. Date Selection Interaction
+      const dateTiles = document.querySelectorAll(".date-tile");
+      dateTiles.forEach((tile) => {
+        tile.addEventListener("click", () => {
+          dateTiles.forEach((t) => {
+            t.classList.remove("bg-primary", "text-on-primary", "shadow-sm");
+            t.classList.add("bg-surface-container-low", "text-on-surface-variant");
+          });
+
+          tile.classList.remove("bg-surface-container-low", "text-on-surface-variant");
+          tile.classList.add("bg-primary", "text-on-primary", "shadow-sm");
+
+          state.date = tile.getAttribute("data-date") || state.date;
+          if (availabilityLabel) {
+            availabilityLabel.innerHTML = `<strong>Horarios actualizados</strong> para ${state.date}`;
+          }
+          updateUI();
+        });
+      });
+
+      // 4. Time Slot Selection Interaction
+      const slotButtons = document.querySelectorAll(".slot-pill");
+      slotButtons.forEach((slot) => {
+        slot.addEventListener("click", () => {
+          slotButtons.forEach((s) => {
+            s.classList.remove("bg-primary", "text-on-primary", "shadow-md");
+            s.classList.add("bg-surface-container-lowest");
+            const timeText = s.querySelector(".font-headline-sm");
+            const subText = s.querySelector(".font-caption-caps");
+            if (timeText) timeText.classList.remove("text-on-primary", "font-bold");
+            if (timeText) timeText.classList.add("text-primary");
+            if (subText) subText.classList.remove("text-secondary-fixed", "font-bold");
+            if (subText) subText.classList.add("text-on-surface-variant");
+          });
+
+          slot.classList.remove("bg-surface-container-lowest", "bg-secondary-fixed");
+          slot.classList.add("bg-primary", "text-on-primary", "shadow-md");
+          const activeTime = slot.querySelector(".font-headline-sm");
+          const activeSub = slot.querySelector(".font-caption-caps");
+          if (activeTime) {
+            activeTime.classList.remove("text-primary", "text-on-secondary-fixed");
+            activeTime.classList.add("text-on-primary", "font-bold");
+          }
+          if (activeSub) {
+            activeSub.classList.remove("text-on-surface-variant", "text-secondary");
+            activeSub.classList.add("text-secondary-fixed", "font-bold");
+          }
+
+          state.time = slot.getAttribute("data-time") || state.time;
+          updateUI();
+        });
+      });
+
+      // 5. Booking Feedback CTA Button
+      if (btnContinue) {
+        btnContinue.addEventListener("click", () => {
+          const originalText = btnContinue.innerHTML;
+          btnContinue.innerHTML = `
+            <span class="inline-block animate-spin mr-1">↻</span>
+            <span>Confirmando en Gorbea...</span>
+          `;
+          btnContinue.classList.add("bg-secondary");
+          setTimeout(() => {
+            btnContinue.innerHTML = `
+              <span class="material-symbols-outlined text-[18px]">done_all</span>
+              <span>¡Cita Reservada con Éxito!</span>
+            `;
+            setTimeout(() => {
+              btnContinue.innerHTML = originalText;
+              btnContinue.classList.remove("bg-secondary");
+            }, 2500);
+          }, 900);
+        });
+      }
+
+      updateUI();
+    })();
+  </script>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(20,34,26,0.06)]" data-active-classes="text-primary font-bold"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-primary transition-colors" data-path="inicio" href="#"><span class="material-symbols-outlined text-[22px]">spa</span><span class="font-label-sm text-label-sm text-[10px] tracking-normal">Inicio</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-primary transition-colors" data-path="servicios-terapias" href="#"><span class="material-symbols-outlined text-[22px]">grid_view</span><span class="font-label-sm text-label-sm text-[10px] tracking-normal">Terapias</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-primary transition-colors" data-path="agendar-sesion" href="#"><span class="material-symbols-outlined text-[22px]">calendar_month</span><span class="font-label-sm text-label-sm text-[10px] tracking-normal">Agendar</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-primary transition-colors" data-path="mi-recuperacion" href="#"><span class="material-symbols-outlined text-[22px]">monitoring</span><span class="font-label-sm text-label-sm text-[10px] tracking-normal">Progreso</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-primary transition-colors" data-path="perfil-atleta" href="#"><span class="material-symbols-outlined text-[22px]">tune</span><span class="font-label-sm text-label-sm text-[10px] tracking-normal">Ajustes</span></a></div></nav>
+
+
+
+
+
+
+
+
+
+
+</body></html>

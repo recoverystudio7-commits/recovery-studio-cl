@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}@media print{.no-print{display:none!important;}.print-clear-pl{padding-left:0!important;}body{background:#ffffff!important;color:#000000!important;}main{padding-top:0!important;}}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-secondary-fixed":"#360f00","inverse-on-surface":"#e4f5e8","on-primary-container":"#84968a","surface-container-low":"#e7f8eb","on-tertiary":"#ffffff","on-tertiary-fixed":"#221a10","on-error":"#ffffff","surface-container":"#e1f2e5","on-secondary":"#ffffff","secondary-container":"#ffa179","tertiary":"#1c150b","surface-tint":"#516258","inverse-surface":"#25342b","outline":"#737874","on-primary-fixed":"#0f1f16","primary-fixed-dim":"#b8cbbe","surface-dim":"#cdded1","on-error-container":"#93000a","secondary":"#934a28","secondary-fixed-dim":"#ffb597","on-primary":"#ffffff","tertiary-fixed":"#efe0cf","tertiary-fixed-dim":"#d3c4b4","on-primary-fixed-variant":"#3a4b40","error":"#ba1a1a","tertiary-container":"#31291e","on-background":"#101e17","on-secondary-container":"#783615","error-container":"#ffdad6","inverse-primary":"#b8cbbe","surface-container-lowest":"#ffffff","on-surface-variant":"#434844","outline-variant":"#c3c8c2","secondary-fixed":"#ffdbcd","surface-container-high":"#dcecdf","primary-fixed":"#d4e7d9","on-surface":"#101e17","surface-container-highest":"#d6e7da","primary-container":"#1e2e25","on-tertiary-container":"#9c9081","on-tertiary-fixed-variant":"#4f4539","background":"#edfef0","surface-bright":"#edfef0","primary":"#091911","surface-variant":"#d6e7da","surface":"#edfef0","on-secondary-fixed-variant":"#753313"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-sm":"1rem","space-md":"1rem","margin":"3rem","space-sm":"0.5rem","margin-mobile":"1.25rem","space-lg":"1.5rem","space-xl":"2.5rem","gutter":"1.5rem","space-xs":"0.25rem"},"fontFamily":{"headline-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display-mobile":["Newsreader"],"headline-lg":["Newsreader"],"caption-caps":["Plus Jakarta Sans"],"display":["Newsreader"],"label-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-lg-mobile":["Newsreader"],"body-md":["Plus Jakarta Sans"],"headline-md":["Newsreader"]},"fontSize":{"headline-sm":["1.125rem",{"lineHeight":"1.5rem","letterSpacing":"0em","fontWeight":"600"}],"body-lg":["1.125rem",{"lineHeight":"1.75rem","letterSpacing":"0em","fontWeight":"400"}],"label-sm":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"600"}],"display-mobile":["2.5rem",{"lineHeight":"2.75rem","letterSpacing":"-0.015em","fontWeight":"400"}],"headline-lg":["2.25rem",{"lineHeight":"2.625rem","letterSpacing":"-0.01em","fontWeight":"400"}],"caption-caps":["0.6875rem",{"lineHeight":"0.875rem","letterSpacing":"0.14em","fontWeight":"700"}],"display":["3.5rem",{"lineHeight":"3.75rem","letterSpacing":"-0.02em","fontWeight":"400"}],"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"body-sm":["0.8125rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"400"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.125rem","letterSpacing":"-0.01em","fontWeight":"400"}],"body-md":["0.9375rem",{"lineHeight":"1.5rem","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["1.5rem",{"lineHeight":"1.875rem","letterSpacing":"-0.005em","fontWeight":"500"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface min-h-screen selection:bg-secondary-container selection:text-on-secondary-container"><aside class="fixed left-0 top-0 h-full w-72 bg-primary-container text-on-primary z-50 flex flex-col pt-space-lg pb-space-lg shadow-[0_1px_8px_rgba(0,0,0,0.04)] no-print"><div class="px-space-lg mb-space-lg"><div class="font-headline-sm text-headline-sm text-surface-container-lowest leading-tight">Kgo. Daniel Barrueto</div><div class="font-caption-caps text-caption-caps text-tertiary-fixed tracking-wider uppercase opacity-80 mt-space-xs">Kinesiología &amp; Deporte</div><div class="font-body-sm text-body-sm text-primary-fixed-dim mt-space-xs">Reg. SIS: 317873</div></div><nav class="flex-1 px-space-md space-y-space-xs" data-active-classes="bg-surface-container-highest text-on-surface font-semibold rounded-lg"><a class="flex items-center px-space-md py-space-sm rounded-lg text-primary-fixed-dim hover:bg-primary hover:text-on-primary transition-all font-label-md text-label-md" data-path="selector-material" href="#"><span class="material-symbols-outlined mr-space-sm text-lg">folder_open</span>Selector de Material</a><a class="flex items-center px-space-md py-space-sm rounded-lg text-primary-fixed-dim hover:bg-primary hover:text-on-primary transition-all font-label-md text-label-md" data-path="protocolos-clinicos" href="#"><span class="material-symbols-outlined mr-space-sm text-lg">assignment</span>Protocolos Clínicos</a><a aria-current="page" class="flex items-center px-space-md py-space-sm transition-all bg-surface-container-highest text-on-surface font-semibold rounded-lg" data-path="receta-ejercicios" href="#"><span class="material-symbols-outlined mr-space-sm text-lg">fitness_center</span>Receta Ejercicios</a><a class="flex items-center px-space-md py-space-sm rounded-lg text-primary-fixed-dim hover:bg-primary hover:text-on-primary transition-all font-label-md text-label-md" data-path="evaluacion-rendimiento" href="#"><span class="material-symbols-outlined mr-space-sm text-lg">monitoring</span>Evaluación Rendimiento</a><a class="flex items-center px-space-md py-space-sm rounded-lg text-primary-fixed-dim hover:bg-primary hover:text-on-primary transition-all font-label-md text-label-md" data-path="epicrisis-domiciliaria" href="#"><span class="material-symbols-outlined mr-space-sm text-lg">clinical_notes</span>Epicrisis Domiciliaria</a><a class="flex items-center px-space-md py-space-sm rounded-lg text-primary-fixed-dim hover:bg-primary hover:text-on-primary transition-all font-label-md text-label-md" data-path="registro-pacientes" href="#"><span class="material-symbols-outlined mr-space-sm text-lg">group</span>Registro Pacientes</a></nav><div class="px-space-lg pt-space-md"><div class="bg-primary p-space-sm rounded-lg text-primary-fixed-dim font-body-sm text-body-sm"><div class="text-surface-container-lowest font-label-sm text-label-sm">RUT: 17.375.282-2</div><div>Gorbea y alrededores</div></div></div></aside><div class="pl-72 print-clear-pl"><header class="fixed top-0 left-72 right-0 h-20 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-gutter no-print"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-outline text-xl">print_connect</span><span class="font-label-md text-label-md text-on-surface">Vista Previa Imprimible (A4 / Carta)</span></div><div class="flex items-center gap-space-sm"><button class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-surface-container-high hover:bg-surface-container-highest text-on-surface rounded font-label-md text-label-md transition-colors" type="button"><span class="material-symbols-outlined text-base">sync_alt</span><span>Testear SIS</span></button><button class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-secondary hover:bg-on-secondary-fixed-variant text-on-secondary rounded font-label-md text-label-md shadow-[0_1px_8px_rgba(0,0,0,0.04)] transition-colors" onclick="window.print()" type="button"><span class="material-symbols-outlined text-base">print</span><span>Imprimir / Guardar en PDF</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ml-space-xs" src="https://lh3.googleusercontent.com/aida/ALJJyrAWqOBsZ3MV4ni8ApdziXhCJO146-U9wVUJij6bhCOPWlbDEuxl11Zy7byRBYtpsPHpKJrcO2L8k6JlDP7FJjvLBwhSSFmFgr5UCZHQ1K9wTdJX-AFM3uaDr8IhhK0Xbgyb1VNgyMeUiGJz_yuwnFJ2F6CFI8c9fgnzYEl4mJvyAIMKNiKcy_TcIyE3_KNsc0muzuE6c9glLMyBMFutCApmeAPchuvRmio-1x1FmfA_-w"/></div></header><main class="relative pt-20 bg-surface print:pt-0 print:bg-surface-container-lowest"><div class="flex flex-col w-full">
+<!-- Interactive Action Bar (Visible only on screen, hidden on print) -->
+<div class="no-print w-full px-gutter py-space-md flex flex-wrap items-center justify-between gap-space-sm bg-surface-container-low shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-primary text-on-primary">
+<span class="material-symbols-outlined text-base">clinical_notes</span>
+</span>
+<div>
+<p class="font-headline-sm text-headline-sm text-primary leading-none">Pauta Oficial de Readaptación Funcional</p>
+<p class="font-label-sm text-label-sm text-outline mt-0.5">Formato optimizado para visualización móvil y salida de impresión A4 / Carta sin desbordes.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-primary hover:bg-primary-container text-on-primary rounded font-label-md text-label-md shadow-sm transition-all" onclick="window.print()" type="button">
+<span class="material-symbols-outlined text-base">print</span>
+<span>Imprimir Pauta Directa</span>
+</button>
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-surface-container-highest text-primary hover:bg-surface-dim rounded font-label-md text-label-md transition-all" href="https://wa.me/56965058439?text=Hola%20Daniel,%20tengo%20una%20consulta%20sobre%20mi%20pauta%20de%20ejercicios." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base">chat</span>
+<span>WhatsApp Directo</span>
+</a>
+</div>
+</div>
+<!-- Main Document Container (Designed like an Architectural Nordic Medical Sheet) -->
+<div class="w-full max-w-5xl mx-auto p-gutter print:p-6 print:max-w-none flex flex-col gap-space-lg text-on-surface">
+<!-- Clinical Header & Credentials -->
+<header class="w-full bg-primary-container text-surface-container-lowest rounded-xl p-space-lg relative overflow-hidden shadow-md">
+<div class="absolute -right-16 -top-16 w-64 h-64 rounded-full bg-secondary opacity-15 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container-lowest/10 font-caption-caps text-caption-caps text-primary-fixed uppercase tracking-wider mb-space-xs">
+            Kinesiología &amp; Readaptación Biomecánica · Gorbea
+          </div>
+<h1 class="font-headline-lg text-headline-lg text-surface-container-lowest tracking-tight">Kgo. Daniel Barrueto</h1>
+<p class="font-body-md text-body-md text-primary-fixed-dim mt-0.5">Magíster en Neurociencias Clínicas &amp; Control Motor</p>
+<div class="flex flex-wrap items-center gap-x-space-md gap-y-1 font-label-sm text-label-sm text-tertiary-fixed mt-space-sm">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">verified_user</span> Reg. SIS N° 317873
+            </span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">call</span> +56 9 6505 8439
+            </span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">location_on</span> Gorbea &amp; Región de La Araucanía
+            </span>
+</div>
+</div>
+<div class="bg-surface-container-lowest/10 backdrop-blur-md px-space-md py-space-sm rounded-lg flex flex-col items-start md:items-end">
+<span class="font-caption-caps text-caption-caps text-secondary-fixed uppercase">Documento Clínico</span>
+<span class="font-label-md text-label-md text-surface-container-lowest mt-0.5">Prescripción de Ejercicio Terapéutico</span>
+<span class="font-body-sm text-body-sm text-primary-fixed-dim">Vigencia: Ciclo 1 (14 Días)</span>
+</div>
+</div>
+</header>
+<!-- Patient Prescription Sheet / Meta Details Bento -->
+<section class="grid grid-cols-1 md:grid-cols-4 gap-space-sm">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm md:col-span-2">
+<span class="font-caption-caps text-caption-caps text-outline uppercase tracking-wider block">Paciente</span>
+<div class="flex items-center justify-between mt-space-xs">
+<input class="font-headline-sm text-headline-sm text-primary bg-transparent w-full focus:outline-none" placeholder="Nombre del paciente" type="text" value="Rodrigo Morales Cifuentes"/>
+<span class="font-body-sm text-body-sm text-outline shrink-0">34 años · Trail / Oficina</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<span class="font-caption-caps text-caption-caps text-outline uppercase tracking-wider block">Fecha de Emisión</span>
+<div class="flex items-center gap-space-xs mt-space-xs text-primary font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-secondary text-lg">calendar_today</span>
+<span>24 Octubre 2024</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<span class="font-caption-caps text-caption-caps text-outline uppercase tracking-wider block">Frecuencia Semanal</span>
+<div class="flex items-center gap-space-xs mt-space-xs text-secondary font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-lg">repeat</span>
+<span>4 - 5 Días / Sem</span>
+</div>
+</div>
+<div class="bg-surface-container-high p-space-md rounded-xl shadow-sm md:col-span-4 flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-xl mt-0.5">target</span>
+<div>
+<span class="font-caption-caps text-caption-caps text-on-surface-variant uppercase tracking-wider block">Diagnóstico Kinésico &amp; Foco de Intervención</span>
+<p class="font-body-md text-body-md text-on-surface font-semibold">
+              Disquinesia lumbopélvica asociada a sobrecarga flexora y radiculopatía mecánica leve L5-S1.
+            </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Objetivo: Favorecer disociación de cadera, reducir mecanosensibilidad del nervio ciático y optimizar co-contracción del complejo lumbopélvico profundo.
+            </p>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-space-xs px-space-sm py-1 bg-surface-container-lowest rounded-md">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Fase 1: Desensibilización</span>
+</div>
+</div>
+</section>
+<!-- Exercises Matrix (The 4 Pillar Protocol) -->
+<section class="flex flex-col gap-space-md">
+<div class="flex items-end justify-between">
+<div>
+<span class="font-caption-caps text-caption-caps text-secondary uppercase tracking-wider">Plan Dosificado</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Matriz de Ejercicios Clínicos</h2>
+</div>
+<div class="hidden sm:flex items-center gap-space-xs text-body-sm font-body-sm text-outline">
+<span class="material-symbols-outlined text-base">timer</span>
+<span>Duración estimada: 25 - 30 min por sesión</span>
+</div>
+</div>
+<!-- Exercise 1 -->
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col lg:flex-row gap-space-lg items-start">
+<div class="w-full lg:w-48 shrink-0 flex flex-col gap-space-xs">
+<div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Athletic patient performing pelvic dissociation cat-camel exercise on a serene minimalist wood floor studio with soft diffused natural morning light and deep forest green tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClULjrSpCQztoXNgT-n3VVm8OwkyFzvK317B0P87opznBCUEwgcWOorV_L-fx_H_G8zTgegINbxfZyiqu_PODVZ6UZ58rA33M042QkNrNFrAx-2GRSVOck4opLAW6FwhA81uBOyRmuz2VluyN243KnvO8uQ8BT9spGKyzwHRVmFZM_MoBrRJxwU4ec4abRsj2ekadF8kuEWACk-njv_cn2sDPc2uhutsTmhvbz_tdm"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-primary/90 text-on-primary font-caption-caps text-caption-caps rounded uppercase">01 · Movilidad</span>
+</div>
+<div class="p-space-xs bg-surface-container rounded-md flex justify-between font-label-sm text-label-sm text-primary">
+<span>RPE Objetivo:</span>
+<span class="font-bold text-secondary">3 - 4 / 10</span>
+</div>
+</div>
+<div class="flex-1 flex flex-col justify-between h-full gap-space-sm w-full">
+<div>
+<div class="flex flex-wrap items-center justify-between gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-primary">Disociación Lumbopélvica &amp; Gato-Camello Segmentario</h3>
+<span class="px-space-sm py-0.5 bg-surface-container-high rounded text-primary font-label-sm text-label-sm">Foco Biomecánico</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+              En cuadrupedia, moviliza vértebra por vértebra comenzando exclusivamente desde la pelvis (anteversión y retroversión). Evita compensar con la columna torácica o tensión excesiva en el cuello. La respiración debe ser diafragmática continua sin apnea.
+            </p>
+</div>
+<!-- Prescription Parameters Chips -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-xs bg-surface-container-low p-space-sm rounded-lg">
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Series</span>
+<span class="font-headline-sm text-headline-sm text-primary">3 Series</span>
+</div>
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Repeticiones</span>
+<span class="font-headline-sm text-headline-sm text-primary">10 Lentas</span>
+</div>
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Tempo / Ritmo</span>
+<span class="font-headline-sm text-headline-sm text-primary">3s sube · 3s baja</span>
+</div>
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Descanso</span>
+<span class="font-headline-sm text-headline-sm text-primary">45 seg</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm bg-secondary-fixed/30 px-space-sm py-1 rounded">
+<span class="material-symbols-outlined text-base">lightbulb</span>
+<span><strong>Clave Técnica:</strong> Imagina empujar suavemente el suelo con las palmas sin bloquear codos. Detén si percibes 'pinchazo' agudo.</span>
+</div>
+</div>
+</article>
+<!-- Exercise 2 -->
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col lg:flex-row gap-space-lg items-start">
+<div class="w-full lg:w-48 shrink-0 flex flex-col gap-space-xs">
+<div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Physiotherapy patient performing a clean Bird-Dog core stability posture on an athletic exercise mat in a bright Nordic clinic with pine wood finishes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoHrU2dN2eEdc0ZR7598okZ-irvLy10asSu9M784j5jQ5JkTT8XUputK0QVMq09yOHTBkXSDY4LfUWwlWUR4rJS3ccIwn8NZa-XVcKC0H7UgUznEtBcKn7xoJt8SzkHGgPZf-VVttnBfHld-CGHB-RQALDCvZLh_cjExu-Tm17J2bQgjXiYbeHEOSpagUJvtZ4h-anKk3knB7ysC8Gwj5LPguYEM2RI1VSyC8rZf0M"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-primary/90 text-on-primary font-caption-caps text-caption-caps rounded uppercase">02 · Estabilidad</span>
+</div>
+<div class="p-space-xs bg-surface-container rounded-md flex justify-between font-label-sm text-label-sm text-primary">
+<span>RPE Objetivo:</span>
+<span class="font-bold text-secondary">5 - 6 / 10</span>
+</div>
+</div>
+<div class="flex-1 flex flex-col justify-between h-full gap-space-sm w-full">
+<div>
+<div class="flex flex-wrap items-center justify-between gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-primary">Bird-Dog Isométrico con Disociación Cruzada</h3>
+<span class="px-space-sm py-0.5 bg-surface-container-high rounded text-primary font-label-sm text-label-sm">Anti-Rotación &amp; Core</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+              Extiende brazo derecho y pierna izquierda de manera simultánea sin arquear la espalda baja ni rotar la cadera hacia un lado. Mantén la pelvis paralela al piso como si sostuvieras un vaso de agua en el sacro. Sostén 4 segundos arriba y alterna con control.
+            </p>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-xs bg-surface-container-low p-space-sm rounded-lg">
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Series</span>
+<span class="font-headline-sm text-headline-sm text-primary">3 Series</span>
+</div>
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Repeticiones</span>
+<span class="font-headline-sm text-headline-sm text-primary">6 por lado</span>
+</div>
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Sostén Isométrico</span>
+<span class="font-headline-sm text-headline-sm text-primary">4 seg</span>
+</div>
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Descanso</span>
+<span class="font-headline-sm text-headline-sm text-primary">60 seg</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm bg-secondary-fixed/30 px-space-sm py-1 rounded">
+<span class="material-symbols-outlined text-base">lightbulb</span>
+<span><strong>Clave Técnica:</strong> Proyecta el talón hacia atrás buscando longitud de cadena dorsal, no altura excesiva.</span>
+</div>
+</div>
+</article>
+<!-- Exercise 3 -->
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col lg:flex-row gap-space-lg items-start">
+<div class="w-full lg:w-48 shrink-0 flex flex-col gap-space-xs">
+<div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Patient executing gentle seated sciatic nerve slider neurodynamics exercise with cervical flexion in a serene therapeutic setting with clay pottery and warm earth tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsWEJ-vNSS65qGLo-4uorchggVM34YIi2j_Ef87ZWTITubKJ-l3eOjYmYwlEc3NbnrD_dbE-q4U3gNpPQ5UUkHEPPoTEuwRNkGui2ZgFyDmyyXk_eFwULsEBM1bk-ULs1caLkPS_gQ0V9Ndocs9ihaJ20b9wRoW64pJkpnJV5HSDmcRLb45NtcJ7EIbpiXVtbUW6X48pJgEI3-zpIZ1DFxuDFqRubNLeoxJaTrcx7g"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-primary/90 text-on-primary font-caption-caps text-caption-caps rounded uppercase">03 · Neurodinamia</span>
+</div>
+<div class="p-space-xs bg-surface-container rounded-md flex justify-between font-label-sm text-label-sm text-primary">
+<span>RPE Objetivo:</span>
+<span class="font-bold text-secondary">2 - 3 / 10</span>
+</div>
+</div>
+<div class="flex-1 flex flex-col justify-between h-full gap-space-sm w-full">
+<div>
+<div class="flex flex-wrap items-center justify-between gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-primary">Deslizamiento Ciático Sedente (Slider Neurodinámico)</h3>
+<span class="px-space-sm py-0.5 bg-surface-container-high rounded text-primary font-label-sm text-label-sm">Descompresión Neural</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+              Sentado al borde de una silla firme. Al extender la rodilla de la pierna sintomática, lleva la cabeza suavemente hacia atrás mirando al cielo. Al bajar el pie, inclina el mentón al pecho. El movimiento debe ser fluido, sin tirones y sin reproducir hormigueo.
+            </p>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-xs bg-surface-container-low p-space-sm rounded-lg">
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Series</span>
+<span class="font-headline-sm text-headline-sm text-primary">2 Series</span>
+</div>
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Repeticiones</span>
+<span class="font-headline-sm text-headline-sm text-primary">12 Deslizamientos</span>
+</div>
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Velocidad</span>
+<span class="font-headline-sm text-headline-sm text-primary">Rítmica · 2s</span>
+</div>
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Descanso</span>
+<span class="font-headline-sm text-headline-sm text-primary">45 seg</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm bg-secondary-fixed/30 px-space-sm py-1 rounded">
+<span class="material-symbols-outlined text-base">lightbulb</span>
+<span><strong>Regla Neurodinámica:</strong> El nervio se desliza, NUNCA se elonga al extremo. Cero sensación de corriente eléctrica permitida.</span>
+</div>
+</div>
+</article>
+<!-- Exercise 4 -->
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col lg:flex-row gap-space-lg items-start">
+<div class="w-full lg:w-48 shrink-0 flex flex-col gap-space-xs">
+<div class="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Person performing myofascial glute and piriformis trigger point release with lacrosse ball against a textured sage green studio wall with calm studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAipElEpKOdS9nxc61RnKmBa9vfz3fUyvSbVjDVIn4sKnsNhjRpSfsWu5KFFiyA5Gp6n2Ppezto0ZMrPYuQxJfH7I1LYNM0I71Nu4vdoHvQXaibAJLD6vGC5JLcNDku3UNiPq4MNxTIKkYmrT_erkgkICix1GvPa8fD7rSzR1v9SVi0UI4CuZbt8FpgBAwklMVUbw80TGLgG4gX66VVxURxgODaCdTWZidyCJN03mwg"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-primary/90 text-on-primary font-caption-caps text-caption-caps rounded uppercase">04 · Autocuidado</span>
+</div>
+<div class="p-space-xs bg-surface-container rounded-md flex justify-between font-label-sm text-label-sm text-primary">
+<span>RPE Objetivo:</span>
+<span class="font-bold text-secondary">4 - 5 / 10</span>
+</div>
+</div>
+<div class="flex-1 flex flex-col justify-between h-full gap-space-sm w-full">
+<div>
+<div class="flex flex-wrap items-center justify-between gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-primary">Liberación Miofascial de Glúteo Medio &amp; Piriforme</h3>
+<span class="px-space-sm py-0.5 bg-surface-container-high rounded text-primary font-label-sm text-label-sm">Modulación Inhibitoria</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+              Apoya una pelota rígida (tipo tenis o lacrosse) en la zona glútea externa contra la pared o suelo. Busca un punto gatillo con tensión refleja y respira profundamente en 4 tiempos hasta sentir que el tejido cede su espasmo protector.
+            </p>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-xs bg-surface-container-low p-space-sm rounded-lg">
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Series</span>
+<span class="font-headline-sm text-headline-sm text-primary">2 Puntos</span>
+</div>
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Presión sostenida</span>
+<span class="font-headline-sm text-headline-sm text-primary">60 seg c/u</span>
+</div>
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Foco Respiratorio</span>
+<span class="font-headline-sm text-headline-sm text-primary">Exhalación 6s</span>
+</div>
+<div>
+<span class="font-caption-caps text-caption-caps text-outline uppercase block">Sensación</span>
+<span class="font-headline-sm text-headline-sm text-primary">'Dolor grato'</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm bg-secondary-fixed/30 px-space-sm py-1 rounded">
+<span class="material-symbols-outlined text-base">lightbulb</span>
+<span><strong>Clave Técnica:</strong> Si sientes que el cuerpo tensa los hombros o retiene el aire, disminuye el peso sobre la pelota.</span>
+</div>
+</div>
+</article>
+</section>
+<!-- Semáforo del Dolor & Neurociencia (Crucial Patient Safety Guide) -->
+<section class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-xs mb-space-md">
+<div>
+<span class="font-caption-caps text-caption-caps text-secondary uppercase tracking-wider">Criterio de Seguridad Kinésica</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">El Semáforo del Dolor &amp; Regla de Oro</h2>
+</div>
+<div class="flex items-center gap-space-xs px-space-sm py-1 bg-surface-container-high rounded text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-base text-primary">psychology</span>
+<span>Basado en Neurociencia Moderna del Dolor</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Verde -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">Zona Segura</span>
+<span class="w-4 h-4 rounded-full bg-surface-tint"></span>
+</div>
+<div class="font-headline-md text-headline-md text-primary mt-space-xs">EVA 0 a 3</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+              Molestia tolerable, fatiga muscular local o rigidez que disminuye conforme aumenta la temperatura articular.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs">
+<span class="font-label-sm text-label-sm text-primary font-bold">Conducta: Continúa con la pauta completa con confianza.</span>
+</div>
+</div>
+<!-- Amarillo -->
+<div class="p-space-md rounded-xl bg-secondary-fixed/20 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-secondary">Zona de Monitoreo</span>
+<span class="w-4 h-4 rounded-full bg-secondary-container"></span>
+</div>
+<div class="font-headline-md text-headline-md text-secondary mt-space-xs">EVA 4 a 5</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+              Sensación palpable pero controlada. Regla clave: el síntoma <strong>debe desaparecer antes de 20 minutos</strong> post-ejercicio.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Conducta: Reduce rango o repeticiones si no remite rápido.</span>
+</div>
+</div>
+<!-- Rojo -->
+<div class="p-space-md rounded-xl bg-error-container/40 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-error">Zona de Alto / Alarma</span>
+<span class="w-4 h-4 rounded-full bg-error"></span>
+</div>
+<div class="font-headline-md text-headline-md text-error mt-space-xs">EVA 6 a 10</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+              Dolor punzante, ardor neuropático irradiado, sensación de bloqueo mecánico articular o claudicación de la marcha.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs">
+<span class="font-label-sm text-label-sm text-error font-bold">Conducta: Suspende inmediatamente y escríbeme al WhatsApp.</span>
+</div>
+</div>
+</div>
+<div class="mt-space-md p-space-sm bg-surface-container rounded-lg flex items-start gap-space-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-xl shrink-0 mt-0.5">verified</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+<strong>Regla de Oro de la Carga Mecánica:</strong> El dolor leve durante el ejercicio no es sinónimo automático de daño tisular. La readaptación enseña al sistema nervioso a tolerar y dosificar movimiento seguro. La constancia supera siempre a la intensidad desmedida.
+        </p>
+</div>
+</section>
+<!-- Ergonomics & Home Wellness Habits -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-space-sm">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex items-start gap-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container text-primary shrink-0">
+<span class="material-symbols-outlined text-xl">water_drop</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Hidratación Celular</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            2.5 a 3.0 litros de agua al día. Los discos intervertebrales y fascias dependen del intercambio hídrico para mantener la viscoelasticidad mecánica.
+          </p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex items-start gap-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container text-primary shrink-0">
+<span class="material-symbols-outlined text-xl">directions_walk</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Caminata Continua</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            20 a 30 minutos de marcha a paso cadencioso diario (Gorbea o circuito plano). Promueve bombeo lumbopélvico e inhibición presináptica del dolor.
+          </p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex items-start gap-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container text-primary shrink-0">
+<span class="material-symbols-outlined text-xl">hotel</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Higiene del Reposo</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Dormir de lado con almohada moderada entre las rodillas o supino con cojín bajo los huecos poplíteos para descargar la charnela lumbosacra.
+          </p>
+</div>
+</div>
+</section>
+<!-- Professional Sign-off & Reviews QR Footer -->
+<footer class="bg-primary-container text-surface-container-lowest rounded-xl p-space-lg shadow-md flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="flex flex-col sm:flex-row items-center gap-space-md text-center sm:text-left">
+<div class="w-28 h-28 bg-surface-container-lowest p-1.5 rounded-xl shadow-sm shrink-0 flex items-center justify-center">
+<img alt="QR Code Google Reviews y Soporte Kgo. Daniel Barrueto" class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAWqOBsZ3MV4ni8ApdziXhCJO146-U9wVUJij6bhCOPWlbDEuxl11Zy7byRBYtpsPHpKJrcO2L8k6JlDP7FJjvLBwhSSFmFgr5UCZHQ1K9wTdJX-AFM3uaDr8IhhK0Xbgyb1VNgyMeUiGJz_yuwnFJ2F6CFI8c9fgnzYEl4mJvyAIMKNiKcy_TcIyE3_KNsc0muzuE6c9glLMyBMFutCApmeAPchuvRmio-1x1FmfA_-w"/>
+</div>
+<div>
+<div class="flex items-center justify-center sm:justify-start gap-1 text-secondary-fixed">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm text-surface-container-lowest ml-1 font-bold">5.0 en Google</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-surface-container-lowest mt-0.5">Escanea para Consultas o Calificar</h4>
+<p class="font-body-sm text-body-sm text-primary-fixed-dim max-w-sm mt-1">
+            Tu progreso es la prioridad. Al completar este bloque o tener dudas de biomecánica, escanea la tarjeta digital para agendar reevaluación o dejarnos tu testimonio.
+          </p>
+</div>
+</div>
+<div class="flex flex-col items-center md:items-end text-center md:text-right shrink-0">
+<!-- Professional Digital Signature Stamp -->
+<div class="h-14 flex items-center justify-center text-primary-fixed font-headline-md text-headline-md italic tracking-widest opacity-90 select-none">
+          Daniel Barrueto V.
+        </div>
+<div class="w-48 h-0.5 bg-primary-fixed-dim/30 my-1"></div>
+<p class="font-label-md text-label-md text-surface-container-lowest font-bold">Kgo. Daniel Barrueto</p>
+<p class="font-caption-caps text-caption-caps text-primary-fixed-dim uppercase">Kinesiólogo Clínico &amp; Neurociencias</p>
+<p class="font-body-sm text-body-sm text-tertiary-fixed">Reg. SIS: 317873 · Gorbea, Chile</p>
+</div>
+</footer>
+<!-- Print Meta Disclaimer -->
+<div class="text-center font-caption-caps text-caption-caps text-outline uppercase tracking-widest py-space-xs">
+      Prescripción individualizada e intransferible · Prohibida su reproducción comercial · Kinesiología Integrativa Barrueto
+    </div>
+</div>
+</div></main></div></body></html>

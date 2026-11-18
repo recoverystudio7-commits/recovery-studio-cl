@@ -1,0 +1,502 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: 'class', theme: { extend: { 'colors': { 'secondary': '#934a28', 'on-primary-fixed-variant': '#3a4b40', 'error': '#ba1a1a', 'on-tertiary': '#ffffff', 'on-secondary-container': '#783615', 'on-background': '#101e17', 'on-secondary': '#ffffff', 'tertiary-container': '#31291e', 'on-surface': '#101e17', 'tertiary-fixed': '#efe0cf', 'surface-container': '#e1f2e5', 'on-secondary-fixed-variant': '#753313', 'error-container': '#ffdad6', 'inverse-on-surface': '#e4f5e8', 'on-surface-variant': '#434844', 'surface': '#edfef0', 'on-tertiary-container': '#9c9081', 'surface-container-high': '#dcecdf', 'on-secondary-fixed': '#360f00', 'secondary-fixed-dim': '#ffb597', 'on-tertiary-fixed': '#221a10', 'tertiary-fixed-dim': '#d3c4b4', 'secondary-container': '#ffa179', 'primary-fixed-dim': '#b8cbbe', 'outline-variant': '#c3c8c2', 'tertiary': '#1c150b', 'surface-tint': '#516258', 'background': '#edfef0', 'on-tertiary-fixed-variant': '#4f4539', 'surface-container-lowest': '#ffffff', 'on-primary-fixed': '#0f1f16', 'surface-dim': '#cdded1', 'surface-bright': '#edfef0', 'outline': '#737874', 'inverse-surface': '#25342b', 'primary-fixed': '#d4e7d9', 'primary-container': '#1e2e25', 'surface-container-low': '#e7f8eb', 'primary': '#091911', 'surface-container-highest': '#d6e7da', 'on-primary-container': '#84968a', 'on-error': '#ffffff', 'surface-variant': '#d6e7da', 'on-error-container': '#93000a', 'inverse-primary': '#b8cbbe', 'on-primary': '#ffffff', 'secondary-fixed': '#ffdbcd' }, 'borderRadius': { 'DEFAULT': '0.25rem', 'lg': '0.5rem', 'xl': '0.75rem', 'full': '9999px' }, 'spacing': { 'space-sm': '0.5rem', 'margin-mobile': '1.25rem', 'space-md': '1rem', 'margin': '3rem', 'gutter': '1.5rem', 'space-xl': '2.5rem', 'gutter-sm': '1rem', 'space-lg': '1.5rem', 'space-xs': '0.25rem' }, 'fontFamily': { 'headline-sm': ['Plus Jakarta Sans'], 'body-lg': ['Plus Jakarta Sans'], 'headline-md': ['Newsreader'], 'label-sm': ['Plus Jakarta Sans'], 'caption-caps': ['Plus Jakarta Sans'], 'body-sm': ['Plus Jakarta Sans'], 'label-md': ['Plus Jakarta Sans'], 'body-md': ['Plus Jakarta Sans'], 'headline-lg-mobile': ['Newsreader'], 'headline-lg': ['Newsreader'], 'display': ['Newsreader'], 'display-mobile': ['Newsreader'] }, 'fontSize': { 'headline-sm': ['1.125rem', { 'lineHeight': '1.5rem', 'letterSpacing': '0em', 'fontWeight': '600' }], 'body-lg': ['1.125rem', { 'lineHeight': '1.75rem', 'letterSpacing': '0em', 'fontWeight': '400' }], 'headline-md': ['1.5rem', { 'lineHeight': '1.875rem', 'letterSpacing': '-0.005em', 'fontWeight': '500' }], 'label-sm': ['0.75rem', { 'lineHeight': '1rem', 'letterSpacing': '0.04em', 'fontWeight': '600' }], 'caption-caps': ['0.6875rem', { 'lineHeight': '0.875rem', 'letterSpacing': '0.14em', 'fontWeight': '700' }], 'body-sm': ['0.8125rem', { 'lineHeight': '1.25rem', 'letterSpacing': '0.01em', 'fontWeight': '400' }], 'label-md': ['0.875rem', { 'lineHeight': '1.25rem', 'letterSpacing': '0.01em', 'fontWeight': '600' }], 'body-md': ['0.9375rem', { 'lineHeight': '1.5rem', 'letterSpacing': '0em', 'fontWeight': '400' }], 'headline-lg-mobile': ['1.75rem', { 'lineHeight': '2.125rem', 'letterSpacing': '-0.01em', 'fontWeight': '400' }], 'headline-lg': ['2.25rem', { 'lineHeight': '2.625rem', 'letterSpacing': '-0.01em', 'fontWeight': '400' }], 'display': ['3.5rem', { 'lineHeight': '3.75rem', 'letterSpacing': '-0.02em', 'fontWeight': '400' }], 'display-mobile': ['2.5rem', { 'lineHeight': '2.75rem', 'letterSpacing': '-0.015em', 'fontWeight': '400' }] } } } };</script></head><body class="bg-surface text-on-surface font-body-md text-body-md"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(20,34,26,0.04)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-4"><div class="flex items-center gap-3 shrink-0"><img alt="Recovery Studio Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrBRQSCSYMUbZbfcoR2wHMJhlsfdNFrWflBkCoNvYoaJFIMd-74mb8ngtJB2xCtksOrxQi67oemUL_kqY_FJ7VMr47TrbkQRCUnf-IaHSuuQ_DuQA4brHH0wmIPDw7ZNMHbp82bKu9Y7YBvNxv4odK2JxH4HXQWhv41PBPclLFOJDbUcnYC_5oslagEInGoBq9MKiGdzL5Ekqdqa7Iq32pFyX0X0_rkIzKWvJRbfZrAy6A"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Recovery Studio</span><span class="font-caption-caps text-caption-caps text-on-surface-variant uppercase tracking-wider">Gorbea · Araucanía</span></div></div><nav class="hidden xl:flex items-center gap-6" data-active-classes="text-primary font-semibold"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="servicios-y-precios" href="#">Servicios &amp; Precios</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="sauna-humedo" href="#">Sauna Húmedo</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="capsulas" href="#">Cápsulas</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="empresas" href="#">Empresas</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="testimonios" href="#">Testimonios</a></nav><div class="flex items-center gap-3 shrink-0"><a class="inline-flex items-center justify-center px-4 py-2.5 rounded-lg bg-secondary text-on-secondary hover:bg-secondary-container hover:text-on-secondary-container transition-all font-label-md text-label-md shadow-[0_2px_12px_-2px_rgba(147,74,40,0.2)]" href="https://wa.me/56965058439" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px] mr-1.5">chat</span>Reservar por WhatsApp</a><a class="inline-flex items-center justify-center px-4 py-2.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary transition-all font-label-md text-label-md" data-path="login" href="#"><span class="material-symbols-outlined text-[18px] mr-1.5">login</span>Ingresar a mi cuenta</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-1 shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full relative">
+<!-- Top Split Hero & Portal Layout -->
+<section class="w-full relative overflow-hidden bg-primary-container text-on-primary">
+<!-- Atmospheric Sauna Glow Effects -->
+<div class="absolute -top-32 right-1/4 w-[600px] h-[600px] rounded-full bg-secondary/15 blur-[140px] pointer-events-none"></div>
+<div class="absolute bottom-0 left-0 w-[450px] h-[450px] rounded-full bg-secondary-container/10 blur-[120px] pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-20 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+<!-- Left Column: Atmospheric Brand Story & Metrics -->
+<div class="lg:col-span-7 flex flex-col space-y-8">
+<!-- Category kicker -->
+<div class="flex items-center gap-3">
+<span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-secondary/30 text-secondary-fixed">
+<span class="material-symbols-outlined text-[15px]">spa</span>
+</span>
+<span class="font-caption-caps text-caption-caps tracking-widest text-primary-fixed uppercase font-semibold">
+              Agenda · Recuperación · Performance
+            </span>
+</div>
+<!-- Main High-Contrast Headline -->
+<div class="space-y-3">
+<h1 class="font-display text-display text-surface-container-lowest leading-[1.08] tracking-tight">
+              Recupera mejor.<br>
+<em class="font-headline-lg italic font-normal text-secondary-container">Vuelve más fuerte.</em>
+</h1>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim max-w-xl leading-relaxed pt-2">
+              Reserva tus sesiones, sigue tu plan de entrenamiento y revisa tus maximales en un solo lugar. Recuperación profesional de alta precisión, sin fricción.
+            </p>
+</div>
+<!-- Value proposition list with custom checks -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+<div class="flex items-start gap-3 p-3.5 rounded-lg bg-surface/5 backdrop-blur-md">
+<span class="material-symbols-outlined text-secondary-container text-[20px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-sm text-body-sm text-surface-bright">Agenda online y reagenda con 12 h de anticipación.</p>
+</div>
+<div class="flex items-start gap-3 p-3.5 rounded-lg bg-surface/5 backdrop-blur-md">
+<span class="material-symbols-outlined text-secondary-container text-[20px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-sm text-body-sm text-surface-bright">Tu rutina y maximales siempre disponibles.</p>
+</div>
+<div class="flex items-start gap-3 p-3.5 rounded-lg bg-surface/5 backdrop-blur-md">
+<span class="material-symbols-outlined text-secondary-container text-[20px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-sm text-body-sm text-surface-bright">Paga por transferencia o Mercado Pago al instante.</p>
+</div>
+<div class="flex items-start gap-3 p-3.5 rounded-lg bg-surface/5 backdrop-blur-md">
+<span class="material-symbols-outlined text-secondary-container text-[20px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-sm text-body-sm text-surface-bright">Sauna húmedo para soltar tensión neuromuscular.</p>
+</div>
+</div>
+<!-- Stats Strip -->
+<div class="pt-6 grid grid-cols-3 gap-6 max-w-lg">
+<div>
+<div class="font-headline-lg text-headline-lg font-headline-md text-surface-container-lowest">12 h</div>
+<div class="font-label-sm text-label-sm text-on-primary-container mt-1 uppercase tracking-wider">Política de cambios</div>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg font-headline-md text-surface-container-lowest">1:1</div>
+<div class="font-label-sm text-label-sm text-on-primary-container mt-1 uppercase tracking-wider">Atención personalizada</div>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg font-headline-md text-secondary-container">100%</div>
+<div class="font-label-sm text-label-sm text-on-primary-container mt-1 uppercase tracking-wider">Seguimiento clínico</div>
+</div>
+</div>
+<!-- Live Session Preview Tile (Athlete Slate) -->
+<div class="p-6 rounded-xl bg-surface/10 backdrop-blur-xl shadow-xl max-w-xl mt-4">
+<div class="flex items-center justify-between text-caption-caps font-caption-caps tracking-widest text-on-primary-container mb-4">
+<span class="flex items-center gap-1.5 text-secondary-fixed">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+                PRÓXIMA SESIÓN
+              </span>
+<span>Mié · 10:00 hrs</span>
+</div>
+<div class="flex items-center gap-4 bg-primary/40 p-4 rounded-lg">
+<div class="flex flex-col items-center justify-center w-14 h-14 rounded-lg bg-surface-container-lowest text-primary shadow-sm shrink-0">
+<span class="font-caption-caps text-caption-caps uppercase font-bold text-secondary">Nov</span>
+<span class="font-headline-md text-headline-md font-bold leading-none">12</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="font-headline-sm text-headline-sm text-surface-container-lowest truncate">Recovery + Movilidad</h4>
+<div class="flex items-center gap-2 text-primary-fixed-dim font-body-sm text-body-sm mt-0.5">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span>60 min · Daniel Barrueto</span>
+</div>
+</div>
+<span class="w-8 h-8 rounded-full bg-surface-container/20 flex items-center justify-center text-primary-fixed">
+<span class="material-symbols-outlined text-[20px]">check</span>
+</span>
+</div>
+<!-- Progress Meter -->
+<div class="mt-5 space-y-2">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-primary-fixed-dim">Plan Performance</span>
+<span class="text-surface-container-lowest font-semibold">5 / 12 sesiones completadas</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface/20 overflow-hidden">
+<div class="h-full bg-gradient-to-r from-secondary to-secondary-container rounded-full" style="width: 41.6%;"></div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-4 text-on-primary-container font-caption-caps text-caption-caps uppercase tracking-wider">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[15px]">lock</span>
+<span>Datos protegidos SSL</span>
+</div>
+<a class="flex items-center gap-1 hover:text-surface-container-lowest transition-colors" href="https://wa.me/56965058439" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[15px]">chat</span>
+<span>+56 9 6505 8439</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Right Column: Elevated Interactive Sanctuary Card -->
+<div class="lg:col-span-5 w-full">
+<div class="bg-surface-container-lowest text-on-surface p-7 sm:p-9 rounded-2xl shadow-2xl relative">
+<!-- Special Offer Capsule Banner -->
+<div class="mb-6 p-3.5 rounded-xl bg-tertiary-fixed text-on-tertiary-fixed flex items-center gap-3">
+<span class="text-xl">🎁</span>
+<div class="flex-1 min-w-0">
+<p class="font-label-md text-label-md leading-tight text-on-tertiary-fixed">
+<strong class="font-bold">Tu primera clase es gratis</strong>
+</p>
+<p class="font-body-sm text-body-sm text-on-tertiary-fixed-variant leading-snug">
+                  Entrenamiento personal · Solo para tu primera vez en Gorbea
+                </p>
+</div>
+</div>
+<!-- Segmented Control (Tabs) -->
+<div class="p-1 rounded-xl bg-surface-container flex items-center mb-6" id="authTabs" role="tablist">
+<button class="flex-1 py-2 text-center rounded-lg font-label-md text-label-md font-semibold bg-surface-container-lowest text-primary shadow-sm transition-all" id="tabLogin" onclick="switchAuthTab('login')" type="button">
+                Ingresar
+              </button>
+<button class="flex-1 py-2 text-center rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" id="tabRegister" onclick="switchAuthTab('register')" type="button">
+                Crear cuenta
+              </button>
+</div>
+<!-- Welcome Header -->
+<div class="mb-6">
+<h2 class="font-headline-md text-headline-md text-primary" id="authHeading">Bienvenido de vuelta</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1" id="authSubheading">Ingresa para ver tu agenda, tus planes y registrar tus marcas.</p>
+</div>
+<!-- Form -->
+<form class="space-y-4" id="authForm" onsubmit="event.preventDefault();">
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface mb-1.5 font-medium" for="usernameInput">Correo electrónico o usuario</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3.5 top-3 text-[20px] text-outline">person</span>
+<input class="w-full h-12 pl-11 pr-4 rounded-lg bg-surface-container-low text-on-surface placeholder:text-outline text-body-md font-body-md focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all" id="usernameInput" placeholder="tu@correo.cl" type="text">
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface mb-1.5 font-medium" for="passwordInput">Contraseña de acceso</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3.5 top-3 text-[20px] text-outline">lock</span>
+<input class="w-full h-12 pl-11 pr-11 rounded-lg bg-surface-container-low text-on-surface placeholder:text-outline text-body-md font-body-md focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all" id="passwordInput" placeholder="Tu contraseña segura" type="password">
+<button aria-label="Mostrar u ocultar contraseña" class="absolute right-3.5 top-3 text-outline hover:text-on-surface" onclick="togglePassVisibility()" type="button">
+<span class="material-symbols-outlined text-[20px]" id="passEyeIcon">visibility</span>
+</button>
+</div>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm pt-1">
+<label class="flex items-center gap-2 cursor-pointer select-none">
+<input checked="" class="w-4 h-4 rounded text-primary focus:ring-primary accent-primary cursor-pointer" type="checkbox">
+<span class="text-on-surface">Mantener sesión</span>
+</label>
+<a class="font-label-sm text-label-sm text-secondary hover:text-on-secondary-container font-semibold transition-colors" href="#">¿Olvidaste tu clave?</a>
+</div>
+<button class="w-full h-12 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md font-semibold flex items-center justify-center gap-2 transition-all shadow-md hover:-translate-y-0.5 mt-2" type="submit">
+<span>Ingresar a mi cuenta</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<div class="relative flex items-center justify-center my-4">
+<div class="w-full h-px bg-surface-container-high"></div>
+<span class="absolute px-3 bg-surface-container-lowest font-caption-caps text-caption-caps text-outline uppercase">o</span>
+</div>
+<button class="w-full h-12 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md font-semibold flex items-center justify-center gap-3 transition-colors" type="button">
+<svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+<path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path>
+<path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path>
+<path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"></path>
+<path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"></path>
+</svg>
+<span>Continuar con Google</span>
+</button>
+</form>
+<div class="mt-6 pt-5 text-center bg-surface-container-lowest">
+<span class="font-body-sm text-body-sm text-on-surface-variant">¿Prefieres atención rápida? </span>
+<a class="font-label-sm text-label-sm text-secondary hover:underline font-semibold" href="https://wa.me/56965058439" rel="noopener noreferrer" target="_blank">Habla con nosotros →</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Section: Interactive Service Navigation Grid -->
+<section class="w-full py-16 lg:py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<span class="font-caption-caps text-caption-caps text-secondary font-bold uppercase tracking-widest block mb-2">Servicios &amp; Experiencias</span>
+<h2 class="font-headline-lg text-headline-lg text-primary font-headline-md">Soluciones de recuperación de élite en Gorbea</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Diseñado para atletas que buscan superar sus maximales, aliviar la sobrecarga y optimizar sus tiempos de descanso fisiológico.
+        </p>
+</div>
+<!-- Service Directory Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1: Empresas -->
+<a class="group p-6 rounded-2xl bg-surface-container-lowest hover:bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="#">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[24px]">business_center</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
+                ¿Representas una empresa?
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Cotiza programas integrales de bienestar físico, descarga muscular y ergonomía para tu equipo de trabajo.
+              </p>
+</div>
+</div>
+<div class="pt-6 flex items-center justify-between text-secondary font-label-md text-label-md font-semibold">
+<span>Ver convenios corporativos</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1.5">arrow_forward</span>
+</div>
+</a>
+<!-- Card 2: Servicios y Precios -->
+<a class="group p-6 rounded-2xl bg-surface-container-lowest hover:bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="#">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[24px]">layers</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
+                Servicios y precios
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Kinesiología clínica, masajes de descarga deportiva, sesiones en sauna húmedo y planes mensuales de rendimiento.
+              </p>
+</div>
+</div>
+<div class="pt-6 flex items-center justify-between text-secondary font-label-md text-label-md font-semibold">
+<span>Consultar tarifario oficial</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1.5">arrow_forward</span>
+</div>
+</a>
+<!-- Card 3: Reservar sin cuenta -->
+<a class="group p-6 rounded-2xl bg-surface-container-lowest hover:bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="https://wa.me/56965058439" rel="noopener noreferrer" target="_blank">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[24px]">calendar_today</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
+                Reservar sin cuenta
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Agenda tu primera sesión directamente vía WhatsApp en menos de 60 segundos con nuestro staff en Gorbea.
+              </p>
+</div>
+</div>
+<div class="pt-6 flex items-center justify-between text-secondary font-label-md text-label-md font-semibold">
+<span>Conversar por WhatsApp</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1.5">arrow_forward</span>
+</div>
+</a>
+<!-- Card 4: Formulario de Contacto -->
+<a class="group p-6 rounded-2xl bg-surface-container-lowest hover:bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="#">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[24px]">mail</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
+                Formulario de contacto
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Déjanos tus consultas técnicas, historial deportivo o inquietudes especiales y te responderemos a la brevedad.
+              </p>
+</div>
+</div>
+<div class="pt-6 flex items-center justify-between text-secondary font-label-md text-label-md font-semibold">
+<span>Escribir al equipo</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1.5">arrow_forward</span>
+</div>
+</a>
+<!-- Card 5: Beneficios Sauna Húmedo -->
+<a class="group p-6 rounded-2xl bg-surface-container-lowest hover:bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="#">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[24px]">water_drop</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
+                Beneficios del sauna húmedo
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Calor constante, vasodilatación, reducción del cortisol y regeneración tisular profunda post-entreno exigente.
+              </p>
+</div>
+</div>
+<div class="pt-6 flex items-center justify-between text-secondary font-label-md text-label-md font-semibold">
+<span>Explorar ciencia térmica</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1.5">arrow_forward</span>
+</div>
+</a>
+<!-- Card 6: Cápsulas de Recuperación -->
+<a class="group p-6 rounded-2xl bg-surface-container-lowest hover:bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="#">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[24px]">play_circle</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
+                Cápsulas de recuperación
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Consejos prácticos, micro-rutinas de movilidad matutina y biomecánica para moverte y entrenar mucho mejor.
+              </p>
+</div>
+</div>
+<div class="pt-6 flex items-center justify-between text-secondary font-label-md text-label-md font-semibold">
+<span>Ver biblioteca audiovisual</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1.5">arrow_forward</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- Visual Editorial Feature: High-End Sanctuary Atmosphere -->
+<section class="w-full py-16 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<!-- Photographic Visual Showcase -->
+<div class="lg:col-span-6 relative">
+<div class="relative overflow-hidden rounded-2xl shadow-xl aspect-[4/3]">
+<img class="w-full h-full object-cover" data-alt="Interior of an ultra-quiet luxury sports recovery sanctuary with deep dark green cedar accents, soft ambient warm lighting, polished slate floor, modern contrast bath and steam room mist, high-end athletic wellness aesthetic in the Chilean Araucanía region." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAab34nVKc_fUgcI0pIKMJzeDFivxkBGVOQUGosV90xvy-w9CDX3i6KgxPGa75yJnAzrTYez48pSlDr7NWSSq5LEVuuDQk6oBvpiclxm7a_CWpmp65WnlWHjfEg7cMWm4makxkDhd6kLThsmm2nh69R29QfER0lLQwmbCwtOYmdN1q0oFGMffotRvsPCixUo4OdABUkumzOgyalRZsYdhlMrwmmn-_QcVMprePATOhSb5NkjQGkoQEhZg">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 text-on-primary">
+<span class="font-caption-caps text-caption-caps uppercase text-secondary-container tracking-wider block mb-1">Entorno Terapéutico</span>
+<p class="font-headline-sm text-headline-sm">Diseñado para el descanso activo de máxima precisión</p>
+</div>
+</div>
+<!-- Overlapping Mini-Badge -->
+<div class="hidden sm:flex absolute -bottom-6 -right-6 p-4 rounded-xl bg-surface-container-lowest shadow-xl items-center gap-3 max-w-xs">
+<div class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">thermostat</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-primary font-bold">Sauna Finlandés</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Calor húmedo controlado a 85°C</p>
+</div>
+</div>
+</div>
+<!-- Editorial Copy & Clinic Strengths -->
+<div class="lg:col-span-6 space-y-6 lg:pl-8">
+<span class="font-caption-caps text-caption-caps text-secondary font-bold uppercase tracking-widest">Metodología Recovery Studio</span>
+<h2 class="font-headline-lg text-headline-lg text-primary font-headline-md">
+            El estándar de los atletas de resistencia en el sur
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Combinamos termoterapia húmeda, técnicas de descarga miofascial y análisis kinésico de tus maximales para reducir radicalmente el riesgo de sobreentrenamiento y acelerar tu regreso a las pistas.
+          </p>
+<div class="space-y-3 pt-2">
+<div class="flex items-start gap-3">
+<span class="w-6 h-6 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-bold text-label-sm shrink-0 mt-0.5">01</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Evaluación personalizada de sobrecarga</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Monitoreo de asimetrías y tensión residual tras ciclos de alto volumen.</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="w-6 h-6 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-bold text-label-sm shrink-0 mt-0.5">02</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Contraste térmico y regeneración vascular</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">El vapor húmedo expande los capilares y purga la acidez muscular acumulada.</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="w-6 h-6 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-bold text-label-sm shrink-0 mt-0.5">03</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Flexibilidad en agendamiento</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Reagenda con 12 horas de margen sin penalización para adaptarse a tu trabajo.</p>
+</div>
+</div>
+</div>
+<div class="pt-4">
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md font-semibold transition-all shadow-md" href="https://wa.me/56965058439" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">event</span>
+<span>Agendar mi primera evaluación</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Social Proof & Google Review Showcase -->
+<section class="w-full py-16 bg-surface">
+<div class="max-w-4xl mx-auto px-6 lg:px-12 text-center">
+<!-- Google Review Badge Component -->
+<div class="p-8 sm:p-10 rounded-2xl bg-surface-container-lowest shadow-xl text-left relative overflow-hidden">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-6 bg-surface-container-lowest">
+<div class="flex items-center gap-3">
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">4.8</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">· 8 reseñas verificadas en Google</span>
+</div>
+<a class="inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary hover:text-on-secondary-container font-semibold transition-colors" href="https://g.page/r/CZxVsgDhqJElEBM/review" rel="noopener noreferrer" target="_blank">
+<span>Escribir una reseña</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</a>
+</div>
+<blockquote class="space-y-4">
+<p class="font-headline-md text-headline-md text-primary italic leading-snug">
+            “Llegué con dolor lumbar por el entrenamiento intenso y en dos sesiones ya noté el cambio radical. El sauna húmedo al final de la terapia es simplemente lo mejor...”
+          </p>
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-bold text-label-md">
+                VR
+              </div>
+<div>
+<p class="font-label-md text-label-md text-primary font-semibold">Valentina Rojas</p>
+<p class="font-caption-caps text-caption-caps text-on-surface-variant uppercase">Atleta de Resistencia · Gorbea</p>
+</div>
+</div>
+<a class="font-label-sm text-label-sm text-secondary hover:underline font-semibold flex items-center gap-1" href="https://g.page/r/CZxVsgDhqJElEBM/review" rel="noopener noreferrer" target="_blank">
+<span>Ver todas las experiencias</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</blockquote>
+</div>
+</div>
+</section>
+<!-- Floating Utility Hub (Bottom Right Badges) -->
+<div class="fixed bottom-6 right-6 z-40 flex flex-col gap-3 items-end">
+<!-- Mercado Pago Quick Badge -->
+<a class="w-12 h-12 rounded-full bg-[#009ee3] text-white flex items-center justify-center shadow-lg hover:scale-110 transition-transform group relative" href="https://link.mercadopago.cl/recoverystudiogorbea" rel="noopener noreferrer" target="_blank" title="Pagar por Mercado Pago">
+<span class="font-label-md text-label-md font-bold tracking-tighter">MP</span>
+<span class="absolute right-14 bg-primary text-on-primary font-caption-caps text-caption-caps uppercase px-2.5 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none shadow-md">
+        Pagar vía Mercado Pago
+      </span>
+</a>
+<!-- Google Review Quick Badge -->
+<a class="w-12 h-12 rounded-full bg-[#fbbc04] text-primary flex items-center justify-center shadow-lg hover:scale-110 transition-transform group relative" href="https://g.page/r/CZxVsgDhqJElEBM/review" rel="noopener noreferrer" target="_blank" title="Dejar reseña en Google">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="absolute right-14 bg-primary text-on-primary font-caption-caps text-caption-caps uppercase px-2.5 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none shadow-md">
+        Opinar en Google (4.8 ★)
+      </span>
+</a>
+<!-- WhatsApp Chat Direct Badge -->
+<a class="w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-xl hover:scale-110 transition-transform group relative" href="https://wa.me/56965058439?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20Recovery%20Studio" rel="noopener noreferrer" target="_blank" title="Chatear por WhatsApp">
+<span class="material-symbols-outlined text-[30px]">chat</span>
+<span class="absolute right-16 bg-primary text-on-primary font-caption-caps text-caption-caps uppercase px-2.5 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none shadow-md">
+        Hablar con el Staff
+      </span>
+</a>
+</div>
+</div>
+<script>
+  function switchAuthTab(tab) {
+    var btnLogin = document.getElementById('tabLogin');
+    var btnRegister = document.getElementById('tabRegister');
+    var heading = document.getElementById('authHeading');
+    var subheading = document.getElementById('authSubheading');
+
+    if (tab === 'login') {
+      btnLogin.className = "flex-1 py-2 text-center rounded-lg font-label-md text-label-md font-semibold bg-surface-container-lowest text-primary shadow-sm transition-all";
+      btnRegister.className = "flex-1 py-2 text-center rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all";
+      heading.innerText = "Bienvenido de vuelta";
+      subheading.innerText = "Ingresa para ver tu agenda, tus planes y registrar tus marcas.";
+    } else {
+      btnRegister.className = "flex-1 py-2 text-center rounded-lg font-label-md text-label-md font-semibold bg-surface-container-lowest text-primary shadow-sm transition-all";
+      btnLogin.className = "flex-1 py-2 text-center rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all";
+      heading.innerText = "Crea tu cuenta de atleta";
+      subheading.innerText = "Comienza con tu primera clase gratis y gestiona tus reservas.";
+    }
+  }
+
+  function togglePassVisibility() {
+    var passInput = document.getElementById('passwordInput');
+    var eyeIcon = document.getElementById('passEyeIcon');
+    if (passInput.type === 'password') {
+      passInput.type = 'text';
+      eyeIcon.innerText = 'visibility_off';
+    } else {
+      passInput.type = 'password';
+      eyeIcon.innerText = 'visibility';
+    }
+  }
+</script></main><footer class="w-full bg-surface-container-low"><div class="max-w-7xl mx-auto px-6 lg:px-12 py-16"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12"><div class="space-y-4"><div class="flex items-center gap-3"><img alt="Recovery Studio Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrBRQSCSYMUbZbfcoR2wHMJhlsfdNFrWflBkCoNvYoaJFIMd-74mb8ngtJB2xCtksOrxQi67oemUL_kqY_FJ7VMr47TrbkQRCUnf-IaHSuuQ_DuQA4brHH0wmIPDw7ZNMHbp82bKu9Y7YBvNxv4odK2JxH4HXQWhv41PBPclLFOJDbUcnYC_5oslagEInGoBq9MKiGdzL5Ekqdqa7Iq32pFyX0X0_rkIzKWvJRbfZrAy6A"><span class="font-headline-sm text-headline-sm text-primary">Recovery Studio</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Santuario de recuperación física y rendimiento atético en el sur de Chile. Tecnología de vanguardia, termoterapia y distensión muscular holística.</p><div class="flex items-start gap-2 pt-2 text-on-surface-variant font-body-sm text-body-sm"><span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">location_on</span><span>Gorbea, Región de la Araucanía, Chile</span></div></div><div class="space-y-3"><h3 class="font-label-md text-label-md text-primary uppercase tracking-wider">Navegación Rápida</h3><ul class="space-y-2 font-body-sm text-body-sm"><li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px] text-on-surface-variant">arrow_forward</span><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="servicios-y-precios" href="#">Servicios &amp; Precios</a></li><li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px] text-on-surface-variant">arrow_forward</span><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="sauna-humedo" href="#">Sauna Húmedo Finlandés</a></li><li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px] text-on-surface-variant">arrow_forward</span><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="capsulas" href="#">Cápsulas de Recuperación</a></li><li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px] text-on-surface-variant">arrow_forward</span><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="empresas" href="#">Convenios Corporativos</a></li><li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px] text-on-surface-variant">arrow_forward</span><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="testimonios" href="#">Experiencias de Atletas</a></li></ul></div><div class="space-y-3"><h3 class="font-label-md text-label-md text-primary uppercase tracking-wider">Contacto &amp; Soporte</h3><p class="font-body-sm text-body-sm text-on-surface-variant">Atención personalizada de lunes a sábado con reserva previa.</p><div class="p-4 rounded-xl bg-surface-container space-y-2"><div class="flex items-center gap-2 text-on-surface"><span class="material-symbols-outlined text-secondary text-[20px]">call</span><span class="font-label-md text-label-md">+56 9 6505 8439</span></div><a class="inline-flex items-center font-label-sm text-label-sm text-secondary hover:text-on-secondary-container transition-colors font-semibold gap-1" href="https://wa.me/56965058439" rel="noopener noreferrer" target="_blank">Iniciar conversación directa →</a></div><div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm pt-1"><span class="material-symbols-outlined text-[18px]">schedule</span><span>Lun - Sáb: 08:00 - 20:30 hrs</span></div></div><div class="space-y-3"><h3 class="font-label-md text-label-md text-primary uppercase tracking-wider">Métodos de Pago</h3><p class="font-body-sm text-body-sm text-on-surface-variant">Procesamiento seguro y flexible vía Mercado Pago y transferencias electrónicas.</p><div class="p-3 rounded-lg bg-surface-container flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[28px]">credit_card</span><div><span class="font-label-md text-label-md text-on-surface block">Mercado Pago Chile</span><span class="font-caption-caps text-caption-caps text-on-surface-variant block uppercase">Débito · Crédito · Cuotas</span></div></div><div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm"><span class="material-symbols-outlined text-[18px]">verified_user</span><span>Transacciones cifradas SSL de 256 bits</span></div></div></div><div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 bg-surface-container-low"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2024 Recovery Studio. Gorbea, Región de la Araucanía. Todos los derechos reservados.</p><div class="flex items-center gap-6 font-body-sm text-body-sm"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="terminos-y-condiciones" href="#">Términos y Condiciones</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="politicas-de-privacidad" href="#">Políticas de Privacidad</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="protocolos-sanitarios" href="#">Protocolos Sanitarios</a></div></div></div></footer>
+
+</body></html>
